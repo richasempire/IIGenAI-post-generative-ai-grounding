@@ -19,6 +19,8 @@ const WORDS = [
   "Almost there...",
 ];
 
+const ACCENT = "#6b8f71";
+
 export default function PipelineLoader() {
   const [index, setIndex] = useState(0);
   const [faded, setFaded] = useState(false);
@@ -37,8 +39,8 @@ export default function PipelineLoader() {
   return (
     <div className="flex flex-col items-center gap-3 select-none">
       <p
-        className="font-mono text-lg text-ghost tracking-wide transition-opacity duration-300"
-        style={{ opacity: faded ? 0 : 1 }}
+        className="font-mono text-lg tracking-wide transition-opacity duration-300"
+        style={{ opacity: faded ? 0 : 1, color: ACCENT }}
       >
         {WORDS[index]}
       </p>

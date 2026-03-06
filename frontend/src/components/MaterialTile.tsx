@@ -12,7 +12,7 @@ function ConfidenceIcon({ confidence }: IconProps) {
 
   return (
     <div className="group/tooltip relative shrink-0">
-      <span className="w-5 h-5 rounded-full bg-panel2 text-ghost text-[11px] font-mono flex items-center justify-center select-none">
+      <span className="w-5 h-5 rounded-full bg-panel2 text-ink text-[11px] font-mono flex items-center justify-center select-none">
         {symbol}
       </span>
       {/* Tooltip */}
@@ -34,7 +34,8 @@ export default function MaterialTile({ material, onClick }: Props) {
     <button
       type="button"
       onClick={onClick}
-      className="shrink-0 bg-panel hover:bg-panel2 border border-wire rounded-lg px-3 py-2.5 text-left transition-colors cursor-pointer w-40"
+      className="shrink-0 bg-panel hover:bg-panel2 rounded-lg px-3 py-2.5 text-left transition-colors cursor-pointer w-40 border"
+      style={{ borderColor: "rgba(107,143,113,0.5)" }}
     >
       <div className="flex items-start justify-between gap-2 mb-1.5">
         <p className="text-xs font-medium text-ink leading-snug line-clamp-2 flex-1">

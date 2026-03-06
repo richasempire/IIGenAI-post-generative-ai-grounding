@@ -90,7 +90,7 @@ async def generate_image(
         result = await client.images.generate(
             model="gpt-image-1",
             prompt=full_prompt,
-            size="1024x1024",
+            size= "1536x1024",
             quality="medium",
         )
 

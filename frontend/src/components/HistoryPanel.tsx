@@ -7,7 +7,8 @@ import type { Iteration } from "@/lib/api";
 interface Props {
   open: boolean;
   iterations: Iteration[];
-  activeNumber: number;
+  /** image_url of the active iteration — globally unique across sessions */
+  activeImageUrl: string;
   onClose: () => void;
   onSelect: (iter: Iteration) => void;
 }
@@ -15,7 +16,7 @@ interface Props {
 export default function HistoryPanel({
   open,
   iterations,
-  activeNumber,
+  activeImageUrl,
   onClose,
   onSelect,
 }: Props) {
@@ -42,14 +43,14 @@ export default function HistoryPanel({
       <div className="flex-1 overflow-y-auto">
         {iterations.length === 0 ? (
           <p className="text-xs text-ghost text-center mt-10 font-mono">
-            No iterations yet
+            No history yet
           </p>
         ) : (
           [...iterations].reverse().map((iter) => {
-            const isActive = iter.iteration_number === activeNumber;
+            const isActive = iter.image_url === activeImageUrl;
             return (
               <button
-                key={iter.iteration_number}
+                key={iter.image_url || `${iter.iteration_number}`}
                 type="button"
                 onClick={() => onSelect(iter)}
                 className={`w-full flex gap-3 px-4 py-3.5 border-b border-wire text-left transition-colors cursor-pointer ${

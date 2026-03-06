@@ -9,9 +9,10 @@ interface Props {
   onToggleTheme: () => void;
   onOpenHistory: () => void;
   onLogout: () => void;
+  onNewDesign: () => void;
 }
 
-export default function TopBar({ username, isDark, onToggleTheme, onOpenHistory, onLogout }: Props) {
+export default function TopBar({ username, isDark, onToggleTheme, onOpenHistory, onLogout, onNewDesign }: Props) {
   return (
     <header className="flex items-center justify-between px-6 py-3.5 border-b border-wire shrink-0">
       <button
@@ -22,9 +23,13 @@ export default function TopBar({ username, isDark, onToggleTheme, onOpenHistory,
         {username}
       </button>
 
-      <h1 className="text-sm font-semibold tracking-[0.25em] uppercase text-ink">
+      <button
+        onClick={onNewDesign}
+        title="New design"
+        className="text-sm font-semibold tracking-[0.25em] uppercase text-ink hover:text-ghost transition-colors cursor-pointer"
+      >
         IIGenAI
-      </h1>
+      </button>
 
       <div className="w-40 flex items-center justify-end gap-1">
         <button
