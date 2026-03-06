@@ -13,6 +13,7 @@ class GenerateRequest(BaseModel):
     model_config = ConfigDict(str_strip_whitespace=True)
 
     prompt: str = Field(..., min_length=1, description="Designer's text prompt")
+    username: str = Field(..., min_length=1, description="Display name from login")
     session_id: str = Field(
         default_factory=lambda: str(uuid.uuid4()),
         description="Session identifier; auto-generated UUID if omitted",

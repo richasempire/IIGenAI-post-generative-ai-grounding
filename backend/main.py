@@ -1,6 +1,6 @@
 import base64
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import Response
 from pydantic import BaseModel
@@ -12,7 +12,7 @@ from api.schemas import GenerateRequest
 from pipeline.generator import generate_image
 from pipeline.identifier import identify_materials_with_consistency
 from pipeline.orchestrator import run_pipeline
-from store.sessions import get_image
+from store.sessions import get_image, get_all_sessions
 
 app = FastAPI(
     title="IIGenAI",
@@ -137,12 +137,16 @@ async def generate(request: GenerateRequest):
 # ---------------------------------------------------------------------------
 
 @app.get("/api/image/{session_id}/{iteration_number}", tags=["pipeline"])
-async def serve_image(session_id: str, iteration_number: int):
+async def serve_image(
+    session_id: str,
+    iteration_number: int,
+    username: str = Query(..., description="Username who owns this session"),
+):
     """
-    Serve the base64-encoded PNG generated for a specific pipeline iteration.
+    Serve the PNG generated for a specific pipeline iteration.
     Returns a raw image/png response so browsers and <img> tags can consume it.
     """
-    b64 = get_image(session_id, iteration_number)
+    b64 = get_image(session_id, iteration_number, username)
     if b64 is None:
         raise HTTPException(
             status_code=404,
@@ -150,6 +154,19 @@ async def serve_image(session_id: str, iteration_number: int):
         )
     image_bytes = base64.b64decode(b64)
     return Response(content=image_bytes, media_type="image/png")
+
+
+# ---------------------------------------------------------------------------
+# Sessions — return full history for a user
+# ---------------------------------------------------------------------------
+
+@app.get("/api/sessions/{username}", tags=["pipeline"])
+async def list_sessions(username: str):
+    """
+    Return all saved sessions (and their iterations) for *username*.
+    Dict mapping session_id → list[Iteration], oldest iteration first.
+    """
+    return get_all_sessions(username)
 
 
 if __name__ == "__main__":

@@ -6,6 +6,13 @@
       "runtimeExecutable": "uvicorn",
       "runtimeArgs": ["main:app", "--reload", "--host", "0.0.0.0", "--port", "8000"],
       "port": 8000
+    },
+    {
+      "name": "IIGenAI Frontend",
+      "runtimeExecutable": "/usr/local/bin/node",
+      "runtimeArgs": ["/Users/richagupta/Desktop/Thesis image/Demo/frontend/node_modules/.bin/next", "dev"],
+      "cwd": "/Users/richagupta/Desktop/Thesis image/Demo/frontend",
+      "port": 3000
     }
   ]
 }

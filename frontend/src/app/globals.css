@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+/* ── Class-based dark mode ───────────────────────────────────────────────── */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ── Themed CSS variables (change with .dark class) ─────────────────────── */
+:root {
+  --bg:    #f5f2ee;
+  --fg:    #1a1a1a;
+  --card:  #ece9e4;
+  --card2: #e0dbd4;
+  --ghost: #8a8178;
+  --line:  #d0cbc4;
+}
+
+.dark {
+  --bg:    #1a1a1a;
+  --fg:    #e8e4de;
+  --card:  #242424;
+  --card2: #2e2e2e;
+  --ghost: #666666;
+  --line:  #333333;
+}
+
+/* ── Tailwind theme tokens ───────────────────────────────────────────────── */
+/* inline = utilities reference CSS vars at runtime (enables dark mode) */
+@theme inline {
+  --color-canvas: var(--bg);
+  --color-ink:    var(--fg);
+  --color-panel:  var(--card);
+  --color-panel2: var(--card2);
+  --color-ghost:  var(--ghost);
+  --color-wire:   var(--line);
+}
+
+/* Static accent/flag colors */
+@theme {
+  --color-sage:    #6b8f71;
+  --color-sage-lt: #8fb894;
+  --color-sage-dk: #4d6b52;
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, "JetBrains Mono", "Fira Code", "Cascadia Code",
+    "Courier New", monospace;
+}
+
+/* ── Base ────────────────────────────────────────────────────────────────── */
+html,
+body {
+  min-height: 100%;
+  font-family: var(--font-sans);
+}
+
+/* Smooth scrollbar styling */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 2px;
+}

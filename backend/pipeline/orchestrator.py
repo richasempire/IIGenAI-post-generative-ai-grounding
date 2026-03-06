@@ -210,8 +210,9 @@ async def run_pipeline(request: GenerateRequest) -> GenerateResponse:
         Never raises — degrades gracefully on partial failures.
     """
     session_id       = request.session_id
-    history          = get_history(session_id)          # snapshot BEFORE this run
-    iteration_number = get_next_iteration_number(session_id)
+    username         = request.username
+    history          = get_history(session_id, username)          # snapshot BEFORE this run
+    iteration_number = get_next_iteration_number(session_id, username)
 
     # Working state — built up as each step succeeds
     image_base64:  str                   = ""
@@ -239,7 +240,7 @@ async def run_pipeline(request: GenerateRequest) -> GenerateResponse:
             image_url="",
             materials=[],
         )
-        add_iteration(session_id, empty_iteration, image_base64="")
+        add_iteration(session_id, empty_iteration, image_base64="", username=username)
         return GenerateResponse(
             session_id=session_id,
             current_iteration=empty_iteration,
@@ -296,7 +297,7 @@ async def run_pipeline(request: GenerateRequest) -> GenerateResponse:
 
     # ── Step 5: Build Iteration, persist, return ──────────────────────────
     image_url = (
-        f"/api/image/{session_id}/{iteration_number}"
+        f"/api/image/{session_id}/{iteration_number}?username={username}"
         if image_base64 else ""
     )
 
@@ -307,7 +308,7 @@ async def run_pipeline(request: GenerateRequest) -> GenerateResponse:
         materials=grounded,
     )
 
-    add_iteration(session_id, iteration, image_base64)
+    add_iteration(session_id, iteration, image_base64, username=username)
 
     logger.info(
         "Pipeline complete | session=%s | iteration=%d | total_co2e=%s | human_review=%s",

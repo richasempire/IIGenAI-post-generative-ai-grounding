@@ -6,7 +6,8 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(git add backend/pipeline/identifier.py backend/pipeline/grounder.py backend/mcp_server/material_server.py)",
-      "Bash(git init)"
+      "Bash(git init)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git)"
     ]
   }
 }
