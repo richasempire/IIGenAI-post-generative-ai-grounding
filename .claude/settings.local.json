@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:platform.openai.com)",
+      "WebFetch(domain:developers.openai.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(git add backend/pipeline/identifier.py backend/pipeline/grounder.py backend/mcp_server/material_server.py)",
+      "Bash(git init)"
+    ]
+  }
+}

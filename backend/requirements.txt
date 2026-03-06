@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+openai>=1.75.0
+httpx
+pydantic
+pydantic-settings
+python-dotenv
+mcp
+openpyxl

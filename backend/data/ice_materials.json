@@ -1,0 +1,3690 @@
+[
+  {
+    "category": "Materials",
+    "material": "general UK, mixture of land won, marine, secondary and recycled, bulk, loose",
+    "co2e_per_kg": 0.00747,
+    "unit": "kgCO2e/kg",
+    "comment": "This is an estimate of a market average aggregate. It models a mixture of 64.2% land won, 27.5% recycled and secondary, and 8.3% marine aggregates. Consumption statistics have been taken from a report, by British Marine Aggregates Producer Association, a member of the  Mineral Products Association (MPA). [Tenth sustainable development report for the British marine aggregate industry, Dec 2016]. These results are sensitive to the embodied carbon of secondary aggregates, which is a material where data would benefit from improvement. If you know the specific type of aggregates you will use, then it is recommended to use a more specific category of aggregates.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "general, virgin mixture of land won and marine, bulk, loose",
+    "co2e_per_kg": 0.004928,
+    "unit": "kgCO2e/kg",
+    "comment": "Excludes recycled and secondary aggregate. This has been modelled with 89% land won and 11% marine won aggregate. Consumption statistics have been taken from a report, by British Marine Aggregates Producer Association, a member of the  Mineral Products Association (MPA). [Tenth sustainable development report for the British marine aggregate industry, Dec 2016].  The consumption of marine aggregate was taken to be the total marine aggregate production. Of the total, 68% are consumed in the GB market, 11% are sent to the European market and 21% used as beach replenishment or fill.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "from virgin land won resources, bulk, loose",
+    "co2e_per_kg": 0.004358,
+    "unit": "kgCO2e/kg",
+    "comment": "Based upon the statistical average of all data collected for virgin aggregates in the ICE Database.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "from virgin marine resources, bulk, loose",
+    "co2e_per_kg": 0.009038,
+    "unit": "kgCO2e/kg",
+    "comment": "Consumption statistics have been taken from a report, by British Marine Aggregates Producer Association, a member of the  Mineral Products Association (MPA). [Tenth sustainable development report for the British marine aggregate industry, Dec 2016].  The consumption of marine aggregate was taken to be the total marine aggregate production. The data has been modelled with the average energy consumption for extracting marine aggregates in the UK. The original data did not use all scope emissions factors, instead just scope 1 and 2. The data was therefore used to estimate the full scope 1, 2 and 3 emissions. The impacts to produce aggregates has a particularly large variation in embodied impacts.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "from recycled resources, no heat treatment, bulk, loose",
+    "co2e_per_kg": 0.006053,
+    "unit": "kgCO2e/kg",
+    "comment": "Based upon the statistical average of all data collected for recycled aggregates with no heat treatment in the ICE Database. Recycled aggregates include aggregates from construction and demolition waste. It does not cover secondary aggregates, such as blast furnace slag, or bottom ash (see separate category for these). Data for recycled aggregates is more difficult to obtain than for virgin aggregates. There is also a large range in results for recycled aggregates, adding uncertainty into the results.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "from recycled resources, with heat treatment, bulk, loose",
+    "co2e_per_kg": 0.118772,
+    "unit": "kgCO2e/kg",
+    "comment": "Based upon the statistical average of all data collected for recycled aggregates that have been through heat treatment in the ICE Database. Recycled aggregates include aggregates from construction and demolition waste. It does not cover secondary aggregates such as blast furnace slag, or bottom ash (see separate category for these). Data for recycled aggregates is more difficult to obtain than for virgin aggregates. There is also a large range in results for recycled aggregates, adding uncertainty into the results.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "expanded clay, bulk, loose",
+    "co2e_per_kg": 0.335091,
+    "unit": "kgCO2e/kg",
+    "comment": "Based upon the statistical average of all data collected for expanded clay aggregates in the ICE Database.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "expanded foamed glass, bulk, loose",
+    "co2e_per_kg": 0.273532,
+    "unit": "kgCO2e/kg",
+    "comment": "Based upon the statistical average of all data collected for expanded foamed glass aggregates in the ICE Database.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "from secondary resources, bulk, loose",
+    "co2e_per_kg": 0.063323,
+    "unit": "kgCO2e/kg",
+    "comment": "Including blast furnace slag, bottom ashes, road planings, mining spoil and other aggregates manufactured from secondary resources. Limited data on the embodied carbon of secondary aggregates was available. There was also limited data on the consumption mixture of secondary aggregates in the UK. The mixture was estimated based upon two sub-regional reports for the Aggregate Minerals survey2015 (AM15). See the references [Table 6.1 in Ref: North East Aggregates Working Party, Annual Aggregates Monitoring report 2015, Dec 2016 ] and [Table 10B in South East Aggregates Working Party, South East Aggregates Monitoring report 2014 & 2015, Sept 2016]. The data would benefit from covering a wider share of the UK secondary aggregate market,",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "mixture of recycled and secondary resources, bulk, loose",
+    "co2e_per_kg": 0.014181,
+    "unit": "kgCO2e/kg",
+    "comment": "Data on recycled and (particularly) secondary aggregates would benefit from improvement. Limited data on the embodied carbon of secondary aggregates was available. There was also limited data on the consumption mixture of recycled and secondary aggregates in the UK. The mixture was modelled with 33% secondary and 67% recycled aggregates. [Estimated from Ref: Aggregates, cement and ready-mix concrete market investigation, Working paper on market definition for aggregates, cement and RMX. ND67. Available from: https://assets.publishing.service.gov.uk/media/5329dfb440f0b60a730002cf/market_definition_housestyled.pdf]",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium General, European Mix, Inc Imports",
+    "co2e_per_kg": 6.668718,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Modelled with 25.6% extrusions, 55.7% rolled and 18.7% castings. Based upon European production and the import of aluminium consumed in Europe. Module D = -3.13 kg CO2e per unit. EOL recovery rate of 95%, based upon DU Telft study of European construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium sheet, European Mix, Inc Imports",
+    "co2e_per_kg": 6.581176,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Based upon European production and the import of aluminium consumed in Europe. Module D = -3.09 kg CO2e per unit. EOL recovery rate of 95%, based upon DU Telft study of European construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium foil, European Mix, Inc Imports",
+    "co2e_per_kg": 7.468978,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Based upon European production and the import of aluminium consumed in Europe. Module D = -3.54 kg CO2e per unit. EOL recovery rate of 95%, based upon DU Telft study of European construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium extruded profile, European Mix, Inc Imports",
+    "co2e_per_kg": 6.825242,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Based upon European production and the import of aluminium consumed in Europe. Module D = -3.21 kg CO2e per unit. EOL recovery rate of 95%, based upon DU Telft study of European construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium, cast, European Mix, Inc Imports",
+    "co2e_per_kg": 6.71519,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Based upon European production and the import of aluminium consumed in Europe. Module D = -3.12 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium General, Worldwide",
+    "co2e_per_kg": 13.05554,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Modelled with 25.6% extrusions, 55.7% rolled and 18.7% castings. Module D = -8.69 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium sheet, Worldwide",
+    "co2e_per_kg": 12.955895,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions.  Module D = -8.69 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium foil, Worldwide",
+    "co2e_per_kg": 13.766895,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions.  Module D = -8.69 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium extruded profile, Worldwide",
+    "co2e_per_kg": 13.176395,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions.  Module D = -8.69 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium cast, Worldwide",
+    "co2e_per_kg": 13.186895,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions.  Module D = -8.69 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium General, European Mix, Inc Imports",
+    "co2e_per_kg": 6.668718,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Modelled with 25.6% extrusions, 55.7% rolled and 18.7% castings. Based upon European production and the import of aluminium consumed in Europe. Module D = -3.13 kg CO2e per unit. EOL recovery rate of 95%, based upon DU Telft study of European construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium, produced in Europe",
+    "co2e_per_kg": 5.583938,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. This entry doesn’t consider aluminium imported into Europe. The aluminium must be made in Europe. Modelled with 25.6% extrusions, 55.7% rolled and 18.7% castings. Module D = -3.64 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium General, Worldwide",
+    "co2e_per_kg": 13.05554,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Modelled with 25.6% extrusions, 55.7% rolled and 18.7% castings. Module D = -8.69 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium, North American",
+    "co2e_per_kg": 5.651616,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Modelled with 25.6% extrusions, 55.7% rolled and 18.7% castings. Module D = -3.69 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium, Africa",
+    "co2e_per_kg": 12.40575,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Modelled with 25.6% extrusions, 55.7% rolled and 18.7% castings. Module D = -8.65 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium, China",
+    "co2e_per_kg": 14.593569,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Modelled with 25.6% extrusions, 55.7% rolled and 18.7% castings. Module D = -10.25 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium, Japan",
+    "co2e_per_kg": 10.624513,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Modelled with 25.6% extrusions, 55.7% rolled and 18.7% castings. Module D = -7.34 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium, Middle East",
+    "co2e_per_kg": 10.8098,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Modelled with 25.6% extrusions, 55.7% rolled and 18.7% castings. Module D = -7.48 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium, Oceania",
+    "co2e_per_kg": 12.752085,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Modelled with 25.6% extrusions, 55.7% rolled and 18.7% castings. Module D = -8.9 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium, Other Asia",
+    "co2e_per_kg": 15.869097,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Modelled with 25.6% extrusions, 55.7% rolled and 18.7% castings. Module D = -11.19 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium, Russia",
+    "co2e_per_kg": 5.548323,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Modelled with 25.6% extrusions, 55.7% rolled and 18.7% castings. Module D = -3.61 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium, South America",
+    "co2e_per_kg": 8.319001,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Modelled with 25.6% extrusions, 55.7% rolled and 18.7% castings. Module D = -5.65 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Aluminium, South Korea",
+    "co2e_per_kg": 11.946853,
+    "unit": "kgCO2e/kg",
+    "comment": "This data has been derived from the world aluminium LCA's. They have produced LCA reports for Europe, North America and worldwide aluminium. Modelled at worldwide average scrap input of 31%, to avoid market distortions. Modelled with 25.6% extrusions, 55.7% rolled and 18.7% castings. Module D = -8.31 kg CO2e per unit. EOL recovery rate of 83%, based upon worldwide global aluminium flow model and for the building and construction sector. With a 2% material loss yield on the scrap recovered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Asphalt, 3% (bitumen) binder content (by mass)",
+    "co2e_per_kg": 50.684228,
+    "unit": "kgCO2e/kg",
+    "comment": "Straight run bitumen content by mass. Using ICE DB average aggregates. Cradle to mixed asphalt. Includes asphalt mixing energy (based upon MPA Sector Level HRA EPD, EPD HUB-1658, Aug 2024), transport of constituents by road to asphalt plant (assumed 250km for bitumen. 28.0 miles for aggregates [Ref: MPA Sustainable Development Report 2022]) and embodied carbon of ingredients. The transport of mixed asphalt to site is not included, e.g. cradle to mixed asphalt boundary. Density is for compacted asphalt. Embodied carbon of bitumen from EuroBitume Life Cycle Assessment 4.0 for bitumen, 2025.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Asphalt, 3.5% binder content",
+    "co2e_per_kg": 53.418686,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Asphalt, 4% binder content",
+    "co2e_per_kg": 56.153145,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Asphalt, 4.5% binder content",
+    "co2e_per_kg": 58.887603,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Asphalt, 5% binder content",
+    "co2e_per_kg": 61.622061,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Asphalt, 5.5% binder content",
+    "co2e_per_kg": 64.35652,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Asphalt, 6% binder content",
+    "co2e_per_kg": 67.090978,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Asphalt, 6.5% binder content",
+    "co2e_per_kg": 69.825436,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Asphalt, 7% binder content",
+    "co2e_per_kg": 72.559895,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Road surface, asphalt, 3% (bitumen) binder content (by mass)",
+    "co2e_per_kg": 14.24074,
+    "unit": "kgCO2e/kg",
+    "comment": "Surface or binder course, at the stated average straight run bitumen content by mass. Cradle to constructed road surface. Using ICE DB average aggregates. Includes embodied carbon of ingredients. Also includes transport of mixed asphalt to site, distance 31 miles [Ref: Mineral Products Association, Sustainable Development Report 2022]. Density is for compacted asphalt. Includes road laying and compacting energy [Ref: TRL, report PRP575 (V4), Protocol for the calculation of whole life cycle greenhouse gas emissions generated by asphalt, M Wayman et al., 2014.]. Assumed 1% waste during road construction (assumption - specific data was not available). Embodied carbon of bitumen from EuroBitume, 2025.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Road surface, asphalt, 3.5% binder content",
+    "co2e_per_kg": 14.889764,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Road surface, asphalt, 4% binder content",
+    "co2e_per_kg": 15.538788,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Road surface, asphalt, 4.5% binder content",
+    "co2e_per_kg": 16.187812,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Road surface, asphalt, 5% binder content",
+    "co2e_per_kg": 16.836835,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Road surface, asphalt, 5.5% binder content",
+    "co2e_per_kg": 17.485859,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Road surface, asphalt, 6% binder content",
+    "co2e_per_kg": 18.134883,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Road surface, asphalt, 6.5% binder content",
+    "co2e_per_kg": 18.783906,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Road surface, asphalt, 7% binder content",
+    "co2e_per_kg": 19.43293,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Straight-run bitumen",
+    "co2e_per_kg": 0.53,
+    "unit": "kgCO2e/kg",
+    "comment": "Source: Eurobitume, 2025. The Eurobitume Life Cycle Assessment 4.0 for bitumen. Note that this is a large change in the carbon emissions over the previous version of the study. The new study claims alliance with the EN15804 method.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "General (Common Brick)",
+    "co2e_per_kg": 0.213,
+    "unit": "kgCO2e/kg",
+    "comment": "Density needs to consider voids in the finished bricks. Average UK brick weighs 2.13 kg per brick [Source: The Brick Development Association].",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "A Single Brick",
+    "co2e_per_kg": 0.45369,
+    "unit": "kgCO2e/kg",
+    "comment": "Average UK brick weighs 2.13 kg per brick [Source: The Brick Development Association].",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "with Mortar 1:3 cement:sand mix (Using CEM I cement)",
+    "co2e_per_kg": 1.0,
+    "unit": "kgCO2e/kg",
+    "comment": "1900 bricks per m3 of mortar. Mortar uses CEM I, e.g. no cement replacements in the mix. You must consider if this strength of mortar is suitable for your application. Average UK brick weighs 2.13 kg per brick [Source: The Brick Development Association].",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "with Mortar 1:4 cement:sand mix (Using CEM I cement)",
+    "co2e_per_kg": 1.0,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "with Mortar 1:5 cement:sand mix (Using CEM I cement)",
+    "co2e_per_kg": 1.0,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "with Mortar 1:6 cement:sand mix (Using CEM I cement)",
+    "co2e_per_kg": 1.0,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "with Mortar (1:½:4½ Cement:Lime:Sand mix) (Using CEM I cement)",
+    "co2e_per_kg": 1.0,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "with Mortar (1:1:6 Cement:Lime:Sand mix) (Using CEM I cement)",
+    "co2e_per_kg": 1.0,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "with Mortar (1:2:9 Cement:Lime:Sand mix) (Using CEM I cement)",
+    "co2e_per_kg": 1.0,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "with Mortar 1:3 cement:sand mix (Using CEM I cement)",
+    "co2e_per_kg": 1.0,
+    "unit": "kgCO2e/kg",
+    "comment": "1500 bricks per m3 of mortar. Mortar uses CEM I, e.g. no cement replacements in the mix. You must consider if this strength of mortar is suitable for your application. Average UK brick weighs 2.13 kg per brick [Source: The Brick Development Association].",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "with Mortar 1:4 cement:sand mix (Using CEM I cement)",
+    "co2e_per_kg": 1.0,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "with Mortar 1:5 cement:sand mix (Using CEM I cement)",
+    "co2e_per_kg": 1.0,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "with Mortar 1:6 cement:sand mix (Using CEM I cement)",
+    "co2e_per_kg": 1.0,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "with Mortar (1:½:4½ Cement:Lime:Sand mix) (Using CEM I cement)",
+    "co2e_per_kg": 1.0,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "with Mortar (1:1:6 Cement:Lime:Sand mix) (Using CEM I cement)",
+    "co2e_per_kg": 1.0,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "with Mortar (1:2:9 Cement:Lime:Sand mix) (Using CEM I cement)",
+    "co2e_per_kg": 1.0,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "General (UK average)",
+    "co2e_per_kg": 0.8123,
+    "unit": "kgCO2e/kg",
+    "comment": "Mixture taken from average Mineral Products Association (MPA) UK sector cement EPD S-P-05825.  87.34% clinker, 5.05% gypsum, 5.21% Limestone, 2.4% MAC. By weight. Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Average CEM I, Ordinary Portland Cement (OPC)",
+    "co2e_per_kg": 0.8398,
+    "unit": "kgCO2e/kg",
+    "comment": "CEM I is a 'pure' cement, Ordinary Portland Cement (OPC). Mixture taken from average Mineral Products Association (MPA) UK sector CEM I EPD S-P-05824.  90.8% clinker, 5.0% gypsum, 4.0% Limestone, 0.2% MAC. By weight. Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM II - Portland-slag cement",
+    "material": "CEM II-A-S - 13% GGBs",
+    "co2e_per_kg": 0.75453,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 6-20% ggbs Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM II - Portland-slag cement",
+    "material": "CEM II/B-S - 28% GGBs",
+    "co2e_per_kg": 0.651296,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 21-35% ggbs Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM II - Portland-pozzolana cement",
+    "material": "CEM II/A-P - 13% natural pozzolanic ash",
+    "co2e_per_kg": 0.735255,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 6-20% natural pozzolanic ash Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM II - Portland-pozzolana cement",
+    "material": "CEM II/B-P 28% natural pozzolanic ash",
+    "co2e_per_kg": 0.609781,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 21-35% natural pozzolanic ash Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM II - Portland-fly ash cement",
+    "material": "CEM II/A-V - 13% fly ash siliceous",
+    "co2e_per_kg": 0.734802,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 6-20% siliceous fly ash Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM II - Portland-fly ash cement",
+    "material": "CEM II/B-V - 28% fly ash siliceous",
+    "co2e_per_kg": 0.608805,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 21-35% siliceous fly ash Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM II - Portland-fly ash cement",
+    "material": "CEM II/A-W - 13% fly ash calcareous",
+    "co2e_per_kg": 0.734802,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 6-20% calcareous fly ash Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM II - Portland-fly ash cement",
+    "material": "CEM II/B-W - 28% fly ash calcareous",
+    "co2e_per_kg": 0.608805,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 21-35% calcareous fly ash Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM II - Portland-limestone cement",
+    "material": "CEM II/A-L - 13% limestone",
+    "co2e_per_kg": 0.736339,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 6-20% limestone Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM II - Portland-limestone cement",
+    "material": "CEM II/B-L- 28% limestone",
+    "co2e_per_kg": 0.612117,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 21-35% limestone Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM II - Portland-limestone cement",
+    "material": "CEM II/A-LL - 13% limestone",
+    "co2e_per_kg": 0.736339,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 6-20% limestone Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM II - Portland-limestone cement",
+    "material": "CEM II/B-LL - 28% limestone",
+    "co2e_per_kg": 0.612117,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 21-35% limestone Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM II - Portland-composite cement",
+    "material": "CEM II/A-M - 16% cement replacement",
+    "co2e_per_kg": 0.721743,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 12-20% cement replacements Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM II - Portland-composite cement",
+    "material": "CEM II/B-M - 28% cement replacement",
+    "co2e_per_kg": 0.630051,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 21-35% cement replacements Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM III - Blast furnace cement",
+    "material": "CEM III/A - 50.5% GGBS",
+    "co2e_per_kg": 0.496446,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 36-65% ggbs Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM III - Blast furnace cement",
+    "material": "CEM III/B - 73% GGBS",
+    "co2e_per_kg": 0.341595,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 66-80% ggbs Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM III - Blast furnace cement",
+    "material": "CEM III/C - 88% GGBS",
+    "co2e_per_kg": 0.238362,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 81-95% ggbs Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM IV - Pozzolanic cement",
+    "material": "CEM IV/A - 23% cement replacement",
+    "co2e_per_kg": 0.650804,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 11-35% pozzolanic materials, e.g. fly ash, pozzolanic ash. Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM IV - Pozzolanic cement",
+    "material": "CEM IV/B - 46% cement replacement",
+    "co2e_per_kg": 0.461809,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 38-55% pozzolanic materials, e.g. fly ash, pozzolanic ash. Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM V - Composite cement",
+    "material": "CEM V/A - 24% GGBS and 24% cement replacement",
+    "co2e_per_kg": 0.479032,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 18-30% ggbs and 18-30% pozzolanic materials.  Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "CEM V - Composite cement",
+    "material": "CEM V/B - 36% GGBS and 36% cement replacement",
+    "co2e_per_kg": 0.304152,
+    "unit": "kgCO2e/kg",
+    "comment": "This cement permits between 31-49% ggbs and 31-49% pozzolanic materials.  Estimated from ICE Cement, Mortar, Concrete model.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Mortar and Screed - CEM I",
+    "material": "Mortar (1:3 cement:sand mix)",
+    "co2e_per_kg": 0.184756,
+    "unit": "kgCO2e/kg",
+    "comment": "Modelled with CEM I",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Mortar and Screed - CEM I",
+    "material": "Mortar (1:4)",
+    "co2e_per_kg": 0.150744,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Mortar and Screed - CEM I",
+    "material": "Mortar (1:5)",
+    "co2e_per_kg": 0.127682,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Mortar and Screed - CEM I",
+    "material": "Mortar (1:6)",
+    "co2e_per_kg": 0.111015,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Mortar and Screed - CEM I",
+    "material": "Mortar (1:½:4½ Cement:Lime:Sand mix)",
+    "co2e_per_kg": 0.158246,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Mortar and Screed - CEM I",
+    "material": "Mortar (1:1:6 Cement:Lime:Sand mix)",
+    "co2e_per_kg": 0.143406,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Mortar and Screed - CEM I",
+    "material": "Mortar (1:2:9 Cement:Lime:Sand mix)",
+    "co2e_per_kg": 0.127334,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Mortar and Screed - Average UK Cement Mix",
+    "material": "Mortar (1:3 cement:sand mix)",
+    "co2e_per_kg": 0.178881,
+    "unit": "kgCO2e/kg",
+    "comment": "Uses the General UK Average cement mixture.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Mortar and Screed - Average UK Cement Mix",
+    "material": "Mortar (1:4)",
+    "co2e_per_kg": 0.145996,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Mortar and Screed - Average UK Cement Mix",
+    "material": "Mortar (1:5)",
+    "co2e_per_kg": 0.123698,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Mortar and Screed - Average UK Cement Mix",
+    "material": "Mortar (1:6)",
+    "co2e_per_kg": 0.107583,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Mortar and Screed - Average UK Cement Mix",
+    "material": "Mortar (1:½:4½ Cement:Lime:Sand mix)",
+    "co2e_per_kg": 0.154029,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Mortar and Screed - Average UK Cement Mix",
+    "material": "Mortar (1:1:6 Cement:Lime:Sand mix)",
+    "co2e_per_kg": 0.140117,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Mortar and Screed - Average UK Cement Mix",
+    "material": "Mortar (1:2:9 Cement:Lime:Sand mix)",
+    "co2e_per_kg": 0.12505,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Admixtures",
+    "material": "General concrete admixtures – Average of data collected",
+    "co2e_per_kg": 1.666167,
+    "unit": "kgCO2e/kg",
+    "comment": "Average from EPDs collected for admixtures",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Admixtures",
+    "material": "Concrete admixtures – Air entrainers, Europe",
+    "co2e_per_kg": 0.527,
+    "unit": "kgCO2e/kg",
+    "comment": "European EPD, from European Federation of Concrete\nAdmixtures Associations Ltd. (EFCA). Density of 1-1.6 kg/l in accordance\nwith the IBU PCR 07.2014 Part B for concrete\nadmixtures",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Admixtures",
+    "material": "Concrete admixtures – Hardening Accelerators",
+    "co2e_per_kg": 2.28,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Admixtures",
+    "material": "Concrete admixtures – Plasticisers and\nSuperplasticisers",
+    "co2e_per_kg": 1.88,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Admixtures",
+    "material": "Concrete admixtures – Retarders",
+    "co2e_per_kg": 1.31,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Admixtures",
+    "material": "Concrete admixtures – Set Accelerators",
+    "co2e_per_kg": 1.33,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Admixtures",
+    "material": "Concrete admixtures – Water Resisting Admixtures",
+    "co2e_per_kg": 2.67,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Ceramic, Porcelain Tile",
+    "co2e_per_kg": 0.757943,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 51 datapoints. Porcelain Tiles are typically fired at higher temperatures in the manufacturing process when compared to other Ceramic Tiles which could affect the embodied carbon. Possible overlaps between Porcelain Tiles and other general Ceramic should be considered.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Ceramic, Sanitary",
+    "co2e_per_kg": 1.929764,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 19 datapoints. This refers to sanitary ceramic products (e.g., wash basins, toilets etc.)",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Ceramic, Tile",
+    "co2e_per_kg": 0.796267,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 81 datapoints. Possible overlaps between Ceramic Tiles and Porcelain Tiles should be considered. Other terms such as Stoneware can also be used to refer to either type.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "General (Simple Baked Products)",
+    "co2e_per_kg": 0.24,
+    "unit": "kgCO2e/kg",
+    "comment": "General simple baked clay products (inc. terracotta and bricks)",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Tile",
+    "co2e_per_kg": 0.48,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Vitrified clay pipe DN 100 & DN 150",
+    "co2e_per_kg": 0.46,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Vitrified clay pipe DN 200 & DN 300",
+    "co2e_per_kg": 0.5,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Vitrified clay pipe DN 500",
+    "co2e_per_kg": 0.55,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "General",
+    "co2e_per_kg": 0.103361,
+    "unit": "kgCO2e/kg",
+    "comment": "It is strongly recommended to avoid selecting a 'general' value for concrete. Selecting data for a specific cement content in the concrete type will give much greater accuracy.  Data from EPD-RMC-20180095-CBG1-EN, for average UK concrete, produced by the British Ready-Mixed Concrete Association (BRMCA) part of the Mineral Products Association (MPA). Concrete mixture is 200kg CEM I, 95 kg ggbs, 15 kg fly ash, 1915kg aggregate, 139 kg water and 1.55 kg admixture.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "GEN 0 (6/8 MPa)",
+    "co2e_per_kg": 0.063372,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 150 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "GEN 1 (8/10 MPa)",
+    "co2e_per_kg": 0.087147,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 220 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "GEN 2 (12/15 MPa)",
+    "co2e_per_kg": 0.094175,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 240 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "GEN 3 (16/20 MPa)",
+    "co2e_per_kg": 0.10106,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 260 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "20/25 MPa",
+    "co2e_per_kg": 0.108681,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 285 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "25/30 MPa",
+    "co2e_per_kg": 0.11548,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 305 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "28/35 MPa",
+    "co2e_per_kg": 0.122289,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 325 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "32/40 MPa",
+    "co2e_per_kg": 0.134171,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 360 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "35/45 MPa",
+    "co2e_per_kg": 0.144335,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 390 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "40/50 Mpa",
+    "co2e_per_kg": 0.154469,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 420 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "PAV1",
+    "co2e_per_kg": 0.122286,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 325 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "PAV2",
+    "co2e_per_kg": 0.134175,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 360 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "With CEM I",
+    "material": "GEN 0 (6/8 MPa)",
+    "co2e_per_kg": 0.065252,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 150 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "With CEM I",
+    "material": "GEN 1 (8/10 MPa)",
+    "co2e_per_kg": 0.089862,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 220 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "With CEM I",
+    "material": "GEN 2 (12/15 MPa)",
+    "co2e_per_kg": 0.097011,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 240 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "With CEM I",
+    "material": "GEN 3 (16/20 MPa)",
+    "co2e_per_kg": 0.1041,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 260 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "With CEM I",
+    "material": "20/25 (20/25 MPa)",
+    "co2e_per_kg": 0.111705,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 285 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "With CEM I",
+    "material": "25/30 (25/30 MPa)",
+    "co2e_per_kg": 0.11874,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 305 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "With CEM I",
+    "material": "28/35 (28/35 MPa)",
+    "co2e_per_kg": 0.125745,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 325 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "With CEM I",
+    "material": "32/40 (32/40 MPa)",
+    "co2e_per_kg": 0.13798,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 360 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "With CEM I",
+    "material": "35/45 (32/40 MPa)",
+    "co2e_per_kg": 0.148461,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 390 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "With CEM I",
+    "material": "40/50 (40/50 MPa)",
+    "co2e_per_kg": 0.158965,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 420 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "With CEM I",
+    "material": "PAV1",
+    "co2e_per_kg": 0.125742,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 325 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "With CEM I",
+    "material": "PAV2",
+    "co2e_per_kg": 0.137984,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 360 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Portland Limestone Concrete - 14% Limestone",
+    "material": "GEN 0 (6/8 MPa)",
+    "co2e_per_kg": 0.056975,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 147 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Portland Limestone Concrete - 14% Limestone",
+    "material": "GEN 1 (8/10 MPa)",
+    "co2e_per_kg": 0.077518,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 215 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Portland Limestone Concrete - 14% Limestone",
+    "material": "GEN 2 (12/15 MPa)",
+    "co2e_per_kg": 0.083703,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 235 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Portland Limestone Concrete - 14% Limestone",
+    "material": "GEN 3 (16/20 MPa)",
+    "co2e_per_kg": 0.089359,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 255 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Portland Limestone Concrete - 14% Limestone",
+    "material": "20/25 (20/25 MPa)",
+    "co2e_per_kg": 0.096166,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 279 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Portland Limestone Concrete - 14% Limestone",
+    "material": "25/30 (25/30 MPa)",
+    "co2e_per_kg": 0.102424,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 300 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Portland Limestone Concrete - 14% Limestone",
+    "material": "28/35 (28/35 MPa)",
+    "co2e_per_kg": 0.108458,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 320 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Portland Limestone Concrete - 14% Limestone",
+    "material": "32/40 (32/40 MPa)",
+    "co2e_per_kg": 0.118994,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 355 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Portland Limestone Concrete - 14% Limestone",
+    "material": "35/45 (32/40 MPa)",
+    "co2e_per_kg": 0.129527,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 390 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Portland Limestone Concrete - 14% Limestone",
+    "material": "40/50 (40/50 MPa)",
+    "co2e_per_kg": 0.141113,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 428 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Portland Limestone Concrete - 14% Limestone",
+    "material": "PAV1",
+    "co2e_per_kg": 0.108003,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 319 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Portland Limestone Concrete - 14% Limestone",
+    "material": "PAV2",
+    "co2e_per_kg": 0.119411,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 356 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "GEN 0 (6/8 MPa)",
+    "co2e_per_kg": 0.051717,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 173 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "GEN 1 (8/10 MPa)",
+    "co2e_per_kg": 0.070165,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 253 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "GEN 2 (12/15 MPa)",
+    "co2e_per_kg": 0.075459,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 276 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "GEN 3 (16/20 MPa)",
+    "co2e_per_kg": 0.080762,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 299 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "20/25 (20/25 MPa)",
+    "co2e_per_kg": 0.087154,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 328 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "25/30 (25/30 MPa)",
+    "co2e_per_kg": 0.09244,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 351 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "28/35 (28/35 MPa)",
+    "co2e_per_kg": 0.098021,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 375 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "32/40 (32/40 MPa)",
+    "co2e_per_kg": 0.108328,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 420 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "35/45 (32/40 MPa)",
+    "co2e_per_kg": 0.114822,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 449 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "40/50 (40/50 MPa)",
+    "co2e_per_kg": 0.122676,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 483 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "PAV1",
+    "co2e_per_kg": 0.097731,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 374 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "PAV2",
+    "co2e_per_kg": 0.108562,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 421 kg total cementitious content per m3 concrete. Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. This adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "% Cement Replacement - Fly Ash",
+    "co2e_per_kg": 0.15,
+    "unit": "kgCO2e/kg",
+    "comment": "Fly Ash",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "GEN 0 (6/8 MPa)",
+    "co2e_per_kg": 0.059242,
+    "unit": "kgCO2e/kg",
+    "comment": "Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. \n\nThis adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "GEN 1 (8/10 MPa)",
+    "co2e_per_kg": 0.081888,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "GEN 2 (12/15 MPa)",
+    "co2e_per_kg": 0.088866,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "GEN 3 (16/20 MPa)",
+    "co2e_per_kg": 0.09528,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "20/25 (20/25 MPa)",
+    "co2e_per_kg": 0.102574,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "25/30 (25/30 MPa)",
+    "co2e_per_kg": 0.109008,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "28/35 (28/35 MPa)",
+    "co2e_per_kg": 0.116476,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "32/40 (32/40 MPa)",
+    "co2e_per_kg": 0.128401,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "35/45 (32/40 MPa)",
+    "co2e_per_kg": 0.137103,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "40/50 (40/50 MPa)",
+    "co2e_per_kg": 0.146704,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "PAV1",
+    "co2e_per_kg": 0.116286,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "PAV2",
+    "co2e_per_kg": 0.128583,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "% Cement Replacement - Blast Furnace Slag",
+    "co2e_per_kg": 0.25,
+    "unit": "kgCO2e/kg",
+    "comment": "GGBS",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "GEN 0 (6/8 MPa)",
+    "co2e_per_kg": 0.05292,
+    "unit": "kgCO2e/kg",
+    "comment": "Estimated from ICE Cement, Mortar, Concrete model with an estimate of realistic cement contents, not minimum cement contents. More cement is often added into a mixture, e.g. to cure quicker. Concrete has a wide variation of cement contents for the same strength class of concrete. \n\nThis adds additional uncertainty to this data by strength class. There is no substitute for finding out the actual cement content used in a mixture (not specified min cement content - actual cement content used by the contractor). The cement content for your mixture at this strength class might be a very different value than assumed here.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "GEN 1 (8/10 MPa)",
+    "co2e_per_kg": 0.071113,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "GEN 2 (12/15 MPa)",
+    "co2e_per_kg": 0.078049,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "GEN 3 (16/20 MPa)",
+    "co2e_per_kg": 0.083588,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "20/25 (20/25 MPa)",
+    "co2e_per_kg": 0.090549,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "25/30 (25/30 MPa)",
+    "co2e_per_kg": 0.096244,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "28/35 (28/35 MPa)",
+    "co2e_per_kg": 0.103214,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "32/40 (32/40 MPa)",
+    "co2e_per_kg": 0.115735,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "35/45 (32/40 MPa)",
+    "co2e_per_kg": 0.124413,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "40/50 (40/50 MPa)",
+    "co2e_per_kg": 0.133048,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "PAV1",
+    "co2e_per_kg": 0.10342,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "35% natural pozzolanic ash",
+    "material": "PAV2",
+    "co2e_per_kg": 0.115766,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "NOMINAL PROPORTIONS METHOD (Volume) - With CEM I",
+    "material": "1:1:2 Cement:Sand:Aggregate",
+    "co2e_per_kg": 0.192863,
+    "unit": "kgCO2e/kg",
+    "comment": "High strength concrete. All of these values were estimated assuming the UK average content of cementitious additions (i.e. fly ash, GGBS) for factory supplied cements in the UK, according to the Mineral Products Association, plus the proportions of other constituents.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "NOMINAL PROPORTIONS METHOD (Volume) - With CEM I",
+    "material": "1:1.5:3",
+    "co2e_per_kg": 0.143719,
+    "unit": "kgCO2e/kg",
+    "comment": "Often used in floor slab, columns & load bearing structure.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "NOMINAL PROPORTIONS METHOD (Volume) - With CEM I",
+    "material": "1:2:4",
+    "co2e_per_kg": 0.11558,
+    "unit": "kgCO2e/kg",
+    "comment": "Often used in construction of buildings under 3 storeys.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "NOMINAL PROPORTIONS METHOD (Volume) - With CEM I",
+    "material": "1:2.5:5",
+    "co2e_per_kg": 0.097351,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "NOMINAL PROPORTIONS METHOD (Volume) - With CEM I",
+    "material": "1:3:6",
+    "co2e_per_kg": 0.085295,
+    "unit": "kgCO2e/kg",
+    "comment": "Non-structural mass concrete.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "NOMINAL PROPORTIONS METHOD (Volume) - With CEM I",
+    "material": "1:4:8",
+    "co2e_per_kg": 0.068752,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "NOMINAL PROPORTIONS METHOD (Volume) - With Average UK Cement",
+    "material": "1:1:2 Cement:Sand:Aggregate",
+    "co2e_per_kg": 0.18629,
+    "unit": "kgCO2e/kg",
+    "comment": "High strength concrete. All of these values were estimated assuming the UK average content of cementitious additions (i.e. fly ash, GGBS) for factory supplied cements in the UK, according to the Mineral Products Association, plus the proportions of other constituents.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "NOMINAL PROPORTIONS METHOD (Volume) - With Average UK Cement",
+    "material": "1:1.5:3",
+    "co2e_per_kg": 0.138933,
+    "unit": "kgCO2e/kg",
+    "comment": "Often used in floor slab, columns & load bearing structure.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "NOMINAL PROPORTIONS METHOD (Volume) - With Average UK Cement",
+    "material": "1:2:4",
+    "co2e_per_kg": 0.111817,
+    "unit": "kgCO2e/kg",
+    "comment": "Often used in construction of buildings under 3 storeys.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "NOMINAL PROPORTIONS METHOD (Volume) - With Average UK Cement",
+    "material": "1:2.5:5",
+    "co2e_per_kg": 0.082636,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "NOMINAL PROPORTIONS METHOD (Volume) - With Average UK Cement",
+    "material": "1:3:6",
+    "co2e_per_kg": 0.082636,
+    "unit": "kgCO2e/kg",
+    "comment": "Non-structural mass concrete.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "NOMINAL PROPORTIONS METHOD (Volume) - With Average UK Cement",
+    "material": "1:4:8",
+    "co2e_per_kg": 0.066696,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "100 kg CEM I  per m3 concrete",
+    "co2e_per_kg": 0.048398,
+    "unit": "kgCO2e/kg",
+    "comment": "These mixtures were modelled with  a CEM I content, e.g. 300 kg per m3 equals the total cementitious content, which is from CEM I cement.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "120",
+    "co2e_per_kg": 0.055534,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "140",
+    "co2e_per_kg": 0.062669,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "160",
+    "co2e_per_kg": 0.069805,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "180",
+    "co2e_per_kg": 0.07694,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "200",
+    "co2e_per_kg": 0.084075,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "220",
+    "co2e_per_kg": 0.091211,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "240",
+    "co2e_per_kg": 0.098346,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "260",
+    "co2e_per_kg": 0.105546,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "280",
+    "co2e_per_kg": 0.112757,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "300",
+    "co2e_per_kg": 0.119977,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "320",
+    "co2e_per_kg": 0.127207,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "340",
+    "co2e_per_kg": 0.134446,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "360",
+    "co2e_per_kg": 0.141607,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "380",
+    "co2e_per_kg": 0.148767,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "400",
+    "co2e_per_kg": 0.155927,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "420",
+    "co2e_per_kg": 0.163088,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "440",
+    "co2e_per_kg": 0.170248,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "460",
+    "co2e_per_kg": 0.177408,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "480",
+    "co2e_per_kg": 0.184569,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with CEM I",
+    "material": "500",
+    "co2e_per_kg": 0.191729,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "100 kg average UK cement per m3 concrete",
+    "co2e_per_kg": 0.047091,
+    "unit": "kgCO2e/kg",
+    "comment": "These mixtures were modelled with  the UK average cement blend, e.g. 300 kg per m3 equals the total cementitious content, which is modelled with the data for \"General UK Average\" cement.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "120",
+    "co2e_per_kg": 0.053965,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "140",
+    "co2e_per_kg": 0.060839,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "160",
+    "co2e_per_kg": 0.067713,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "180",
+    "co2e_per_kg": 0.074587,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "200",
+    "co2e_per_kg": 0.081461,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "220",
+    "co2e_per_kg": 0.088335,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "240",
+    "co2e_per_kg": 0.095209,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "260",
+    "co2e_per_kg": 0.102148,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "280",
+    "co2e_per_kg": 0.109097,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "300",
+    "co2e_per_kg": 0.116055,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "320",
+    "co2e_per_kg": 0.123024,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "340",
+    "co2e_per_kg": 0.130002,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "360",
+    "co2e_per_kg": 0.136901,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "380",
+    "co2e_per_kg": 0.1438,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "400",
+    "co2e_per_kg": 0.150699,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "420",
+    "co2e_per_kg": 0.157598,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "440",
+    "co2e_per_kg": 0.164497,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "460",
+    "co2e_per_kg": 0.171396,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "480",
+    "co2e_per_kg": 0.178295,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with Average UK Cement",
+    "material": "500",
+    "co2e_per_kg": 0.185194,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "% Cement Replacement - pfa",
+    "co2e_per_kg": 0.0,
+    "unit": "kgCO2e/kg",
+    "comment": "pfa",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "100 kg total cementitious content per m3 concrete",
+    "co2e_per_kg": 0.048398,
+    "unit": "kgCO2e/kg",
+    "comment": "These mixtures were modelled with some pfa as cement replacement, e.g. 300 kg per m3 equals the total cementitious content. The % pfa replacement rate is applied to this amount.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "120",
+    "co2e_per_kg": 0.055534,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "140",
+    "co2e_per_kg": 0.062669,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "160",
+    "co2e_per_kg": 0.069805,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "180",
+    "co2e_per_kg": 0.07694,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "200",
+    "co2e_per_kg": 0.084075,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "220",
+    "co2e_per_kg": 0.091211,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "240",
+    "co2e_per_kg": 0.098346,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "260",
+    "co2e_per_kg": 0.105546,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "280",
+    "co2e_per_kg": 0.112757,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "300",
+    "co2e_per_kg": 0.119977,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "320",
+    "co2e_per_kg": 0.127207,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "340",
+    "co2e_per_kg": 0.134446,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "360",
+    "co2e_per_kg": 0.141607,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "380",
+    "co2e_per_kg": 0.148767,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "400",
+    "co2e_per_kg": 0.155927,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "420",
+    "co2e_per_kg": 0.163088,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "440",
+    "co2e_per_kg": 0.170248,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "460",
+    "co2e_per_kg": 0.177408,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "480",
+    "co2e_per_kg": 0.184569,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with pfa",
+    "material": "500",
+    "co2e_per_kg": 0.191729,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "% Cement Replacement - Blast Furnace Slag",
+    "co2e_per_kg": 0.0,
+    "unit": "kgCO2e/kg",
+    "comment": "GGBS",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "100 kg total cementitious content per m3 concrete",
+    "co2e_per_kg": 0.048398,
+    "unit": "kgCO2e/kg",
+    "comment": "These mixtures were modelled with some ggbs as cement replacement, e.g. 300 kg per m3 equals the total cementitious content. The % ggbs replacement rate is applied to this amount.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "120",
+    "co2e_per_kg": 0.055534,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "140",
+    "co2e_per_kg": 0.062669,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "160",
+    "co2e_per_kg": 0.069805,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "180",
+    "co2e_per_kg": 0.07694,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "200",
+    "co2e_per_kg": 0.084075,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "220",
+    "co2e_per_kg": 0.091211,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "240",
+    "co2e_per_kg": 0.098346,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "260",
+    "co2e_per_kg": 0.105546,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "280",
+    "co2e_per_kg": 0.112757,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "300",
+    "co2e_per_kg": 0.119977,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "320",
+    "co2e_per_kg": 0.127207,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "340",
+    "co2e_per_kg": 0.134446,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "360",
+    "co2e_per_kg": 0.141607,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "380",
+    "co2e_per_kg": 0.148767,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "400",
+    "co2e_per_kg": 0.155927,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "420",
+    "co2e_per_kg": 0.163088,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "440",
+    "co2e_per_kg": 0.170248,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "460",
+    "co2e_per_kg": 0.177408,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "480",
+    "co2e_per_kg": 0.184569,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "By Cementitious Content with ggbs",
+    "material": "500",
+    "co2e_per_kg": 0.191729,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "EU Tube & Sheet",
+    "co2e_per_kg": 2.71,
+    "unit": "kgCO2e/kg",
+    "comment": "EU production data, estimated from Kupfer Institut LCI data. 37% recycled content (the 3 year world average). World average data is expected to be higher than these values.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Virgin",
+    "co2e_per_kg": 3.81,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Recycled",
+    "co2e_per_kg": 0.84,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Glass, General, per kg",
+    "co2e_per_kg": 1.436967,
+    "unit": "kgCO2e/kg",
+    "comment": "2.5kg glass per mm thickness, per m2. Embodied carbon of the glass is the average of data collected, from 109 datapoints",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Glass, Glazing, Double, per kg",
+    "co2e_per_kg": 1.6256,
+    "unit": "kgCO2e/kg",
+    "comment": "2.5kg glass per mm thickness, per m2. Embodied carbon of the glass is the average of data collected, from 10 datapoints",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Glass, Glazing triple, per kg",
+    "co2e_per_kg": 1.746991,
+    "unit": "kgCO2e/kg",
+    "comment": "2.5kg glass per mm thickness, per m2. Embodied carbon of the glass is the average of data collected, from 6 datapoints",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Glass, Toughened, per kg",
+    "co2e_per_kg": 1.66723,
+    "unit": "kgCO2e/kg",
+    "comment": "2.5kg glass per mm thickness, per m2. Embodied carbon of the glass is the average of data collected, from 43 datapoints",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Glass, Multi layer safety, filled core, fire resistant, toughened, per kg",
+    "co2e_per_kg": 2.081791,
+    "unit": "kgCO2e/kg",
+    "comment": "2.5kg glass per mm thickness, per m2. Embodied carbon of the glass is the average of data collected, from 6 datapoints",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Glass, Multi layer safety, unfilled, per kg",
+    "co2e_per_kg": 1.555516,
+    "unit": "kgCO2e/kg",
+    "comment": "2.5kg glass per mm thickness, per m2. Embodied carbon of the glass is the average of data collected, from 8 datapoints",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Glass, sky light or roof, with frame, per kg",
+    "co2e_per_kg": 3.101852,
+    "unit": "kgCO2e/kg",
+    "comment": "2.5kg glass per mm thickness, per m2. Embodied carbon of the glass is the average of data collected, from 5 datapoints",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "per mm glass, 1 mm of glass, ex frame",
+    "co2e_per_kg": 3.592418,
+    "unit": "kgCO2e/kg",
+    "comment": "Single panel of glass. Embodied carbon of the glass is the average of data collected, from 109 datapoints",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "3 mm of glass, ex frame",
+    "co2e_per_kg": 10.777253,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "4 mm of glass, ex frame",
+    "co2e_per_kg": 14.369671,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "5 mm of glass, ex frame",
+    "co2e_per_kg": 17.962088,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "6 mm of glass, ex frame",
+    "co2e_per_kg": 21.554506,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "7 mm of glass, ex frame",
+    "co2e_per_kg": 25.146924,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "8 mm of glass, ex frame",
+    "co2e_per_kg": 28.739341,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "10 mm of glass, ex frame",
+    "co2e_per_kg": 35.924177,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "12 mm of glass, ex frame",
+    "co2e_per_kg": 43.109012,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "per mm glass, 1 mm of glass, ex cavity and ex frame",
+    "co2e_per_kg": 4.064,
+    "unit": "kgCO2e/kg",
+    "comment": "Total thickness of glass excludes any spacer thickness. Air or argon filled.. Embodied carbon of the glass is the average of data collected, from 10 datapoints",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "8 mm of glass, ex cavity and ex frame",
+    "co2e_per_kg": 32.512,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "10 mm of glass, ex cavity and ex frame",
+    "co2e_per_kg": 40.64,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "12 mm of glass, ex cavity and ex frame",
+    "co2e_per_kg": 48.768,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "14 mm of glass, ex cavity and ex frame",
+    "co2e_per_kg": 56.896,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "16 mm of glass, ex cavity and ex frame",
+    "co2e_per_kg": 65.024001,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "20 mm of glass, ex cavity and ex frame",
+    "co2e_per_kg": 81.280001,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "per mm glass, 1 mm of glass, ex cavity and ex frame",
+    "co2e_per_kg": 4.367477,
+    "unit": "kgCO2e/kg",
+    "comment": "Total thickness of glass excludes any spacer thickness. Air or argon filled.. Embodied carbon of the glass is the average of data collected, from 6 datapoints",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "12 mm of glass, ex cavity and ex frame",
+    "co2e_per_kg": 52.409729,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "15 mm of glass, ex cavity and ex frame",
+    "co2e_per_kg": 65.512161,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "18 mm of glass, ex cavity and ex frame",
+    "co2e_per_kg": 78.614594,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "20 mm of glass, ex cavity and ex frame",
+    "co2e_per_kg": 87.349548,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "24 mm of glass, ex cavity and ex frame",
+    "co2e_per_kg": 104.819458,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "per mm glass, 1 mm of glass, ex frame",
+    "co2e_per_kg": 5.204478,
+    "unit": "kgCO2e/kg",
+    "comment": "Monolithic glass, core filled with fire resistant material, e.g. gel.. Embodied carbon of the glass is the average of data collected, from 6 datapoints",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "10 mm of glass, ex frame",
+    "co2e_per_kg": 52.044781,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "12 mm of glass, ex frame",
+    "co2e_per_kg": 62.453737,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "14 mm of glass, ex frame",
+    "co2e_per_kg": 72.862693,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "16 mm of glass, ex frame",
+    "co2e_per_kg": 83.271649,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "per mm glass, 1 mm of glass, ex frame",
+    "co2e_per_kg": 3.888789,
+    "unit": "kgCO2e/kg",
+    "comment": "Monolithic glass. Embodied carbon of the glass is the average of data collected, from 8 datapoints",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "8 mm of glass, ex frame",
+    "co2e_per_kg": 31.11031,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "10 mm of glass, ex frame",
+    "co2e_per_kg": 38.887888,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "12 mm of glass, ex frame",
+    "co2e_per_kg": 46.665465,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "16 mm of glass, ex frame",
+    "co2e_per_kg": 62.22062,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "per mm glass, 1 mm of glass, ex frame",
+    "co2e_per_kg": 4.168074,
+    "unit": "kgCO2e/kg",
+    "comment": "Toughened. Embodied carbon of the glass is the average of data collected, from 43 datapoints",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "2 mm of glass, ex frame",
+    "co2e_per_kg": 8.336149,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "3 mm of glass, ex frame",
+    "co2e_per_kg": 12.504223,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "4 mm of glass, ex frame",
+    "co2e_per_kg": 16.672297,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "5 mm of glass, ex frame",
+    "co2e_per_kg": 20.840371,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "6 mm of glass, ex frame",
+    "co2e_per_kg": 25.008446,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "8 mm of glass, ex frame",
+    "co2e_per_kg": 33.344594,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "10 mm of glass, ex frame",
+    "co2e_per_kg": 41.680743,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "12 mm of glass, ex frame",
+    "co2e_per_kg": 50.016891,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "15 mm of glass, ex frame",
+    "co2e_per_kg": 62.521114,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Roof or skylight, inc frame",
+    "co2e_per_kg": 268.0,
+    "unit": "kgCO2e/kg",
+    "comment": "Includes frame and glazing unit.. Embodied carbon of the glass is the average of data collected, from 5 datapoints",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Insulation, Glass Wool",
+    "co2e_per_kg": 1.532707,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 362 datapoints. Possible overlaps between Glass Wool and other general Mineral Wool should be considered. Any data sources which included insulation attached to plasterboard or metals were excluded from the averages.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Insulation, Mineral Wool",
+    "co2e_per_kg": 1.249646,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 462 datapoints. Possible overlaps between Mineral Wool and specific Glass Wool should be considered. This category also covers Stone Wool and Rock Wool insulation. Any data sources which included insulation attached to plasterboard or metals were excluded from the averages.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Insulation, Polyisocyanurate (PIR)",
+    "co2e_per_kg": 3.088888,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 37 datapoints. Limited data pool and manufacturer representation noted. Any data sources which included insulation attached to plasterboard or metals were excluded from the averages.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Insulation, Polystyrene",
+    "co2e_per_kg": 3.689954,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 94 datapoints. Any data sources which included insulation attached to plasterboard or metals were excluded from the averages.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Insulation, Polyurethane Board",
+    "co2e_per_kg": 4.531829,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 10 datapoints. Any data sources which included insulation attached to plasterboard or metals were excluded from the averages.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "General",
+    "co2e_per_kg": 2.03224,
+    "unit": "kgCO2e/kg",
+    "comment": "It was difficult to estimate the embodied energy and carbon of iron with the data available.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "General",
+    "co2e_per_kg": 1.6681,
+    "unit": "kgCO2e/kg",
+    "comment": "Allocated (divided) on a mass basis, assumes recycling rate of 61%",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Virgin",
+    "co2e_per_kg": 3.37,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Recycled",
+    "co2e_per_kg": 0.58,
+    "unit": "kgCO2e/kg",
+    "comment": "Scrap batteries are a main feedstock for recycled lead",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "General",
+    "co2e_per_kg": 0.78,
+    "unit": "kgCO2e/kg",
+    "comment": "Embodied carbon was difficult to estimate",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "GGBS (Ground Granulated Blast Furnace Slag)",
+    "co2e_per_kg": 0.155,
+    "unit": "kgCO2e/kg",
+    "comment": "Ground Granulated Blast Furnace Slag (GGBS), economic allocation.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Paint, Waterborne",
+    "co2e_per_kg": 2.15183,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 584 datapoints. This contains a wide range of waterborne paints (e.g., emulsion, primer, gloss, matte etc.). Further research to investigate additional sub-categorisations of paint types would be beneficial.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Solventborne Paint",
+    "co2e_per_kg": 3.76,
+    "unit": "kgCO2e/kg",
+    "comment": "[ICE V2.0 - would benefit from an update] Solventborne paint has a 30% share of the market. Includes feedstock energy.  It was  difficult to estimate carbon emissions for Solventborne paint.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Plaster, Glass Fibre Reinforced Plasterboard",
+    "co2e_per_kg": 0.321798,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 85 datapoints. Any data sources which included plasterboard with some form of insulation attached were excluded from the averages.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Plaster, Gypsum",
+    "co2e_per_kg": 0.164469,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 107 datapoints. Further research to investigate additional sub-categorisations plaster would be beneficial.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Plaster, Plasterboard",
+    "co2e_per_kg": 0.238138,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 376 datapoints. Any data sources which included plasterboard with some form of insulation attached were excluded from the averages.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "General",
+    "co2e_per_kg": 3.31,
+    "unit": "kgCO2e/kg",
+    "comment": "35.6 MJ/kg Feedstock Energy  (Included). Determined by the average use of each type of plastic used in the European construction industry.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "ABS",
+    "co2e_per_kg": 3.76,
+    "unit": "kgCO2e/kg",
+    "comment": "48.6 MJ/kg Feedstock Energy  (Included)",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "General Polyethylene",
+    "co2e_per_kg": 2.54,
+    "unit": "kgCO2e/kg",
+    "comment": "54.4 MJ/kg Feedstock Energy  (Included). Based on average consumption of types of polyethylene in European construction",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "High Density Polyethylene (HDPE) Resin",
+    "co2e_per_kg": 1.93,
+    "unit": "kgCO2e/kg",
+    "comment": "54.3 MJ/kg Feedstock Energy  (Included). Doesn’t include the final fabrication.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "HDPE Pipe",
+    "co2e_per_kg": 2.52,
+    "unit": "kgCO2e/kg",
+    "comment": "55.1 MJ/kg Feedstock Energy  (Included)",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Low Density Polyethylene (LDPE) Resin",
+    "co2e_per_kg": 2.08,
+    "unit": "kgCO2e/kg",
+    "comment": "51.6 MJ/kg Feedstock Energy  (Included). Doesn't include the final fabrication",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "LDPE Film",
+    "co2e_per_kg": 2.6,
+    "unit": "kgCO2e/kg",
+    "comment": "55.2 MJ/kg Feedstock Energy (Included)",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Nylon (Polyamide) 6 Polymer",
+    "co2e_per_kg": 9.14,
+    "unit": "kgCO2e/kg",
+    "comment": "38.6 MJ/kg Feedstock Energy  (Included). Doesn’t include final fabrication. Plastics Europe state that two thirds of nylon is used as fibres (textiles, carpets…etc) in Europe and that most of the remainder as injection mouldings. Dinitrogen monoxide and methane emissions are very significant contributors to GWP.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Nylon (polyamide) 6,6 Polymer",
+    "co2e_per_kg": 7.92,
+    "unit": "kgCO2e/kg",
+    "comment": "50.7 MJ/kg Feedstock Energy  (Included). Doesn’t include final fabrication (i.e. injection moulding). See comments for Nylon 6 polymer.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Polycarbonate",
+    "co2e_per_kg": 7.62,
+    "unit": "kgCO2e/kg",
+    "comment": "36.7 MJ/kg Feedstock Energy  (Included). Doesn’t include final fabrication.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Polypropylene, Orientated Film",
+    "co2e_per_kg": 3.43,
+    "unit": "kgCO2e/kg",
+    "comment": "55.7 MJ/kg Feedstock Energy  (Included).",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Polypropylene, Injection Moulding",
+    "co2e_per_kg": 4.49,
+    "unit": "kgCO2e/kg",
+    "comment": "54 MJ/kg Feedstock Energy  (Included). If biomass benefits are included the CO2 may reduce to 3.85 kgCO2/kg, and GWP down to 4.41 kg CO2e/kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Expanded Polystyrene",
+    "co2e_per_kg": 3.29,
+    "unit": "kgCO2e/kg",
+    "comment": "46.2 MJ/kg Feedstock Energy  (Included)",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "General Purpose Polystyrene",
+    "co2e_per_kg": 3.43,
+    "unit": "kgCO2e/kg",
+    "comment": "46.3 MJ/kg Feedstock Energy  (Included)",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "High Impact Polystyrene",
+    "co2e_per_kg": 3.42,
+    "unit": "kgCO2e/kg",
+    "comment": "46.4 MJ/kg Feedstock Energy  (Included)",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Thermoformed Expanded Polystyrene",
+    "co2e_per_kg": 4.39,
+    "unit": "kgCO2e/kg",
+    "comment": "49.7 MJ/kg Feedstock Energy  (Included)",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Polyurethane Flexible Foam",
+    "co2e_per_kg": 4.84,
+    "unit": "kgCO2e/kg",
+    "comment": "33.47 MJ/kg Feedstock Energy  (Included). Poor data availability for feedstock energy",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Polyurethane Rigid Foam",
+    "co2e_per_kg": 4.26,
+    "unit": "kgCO2e/kg",
+    "comment": "37.07 MJ/kg Feedstock Energy  (Included). Poor data availability for feedstock energy",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "PVC General",
+    "co2e_per_kg": 3.1,
+    "unit": "kgCO2e/kg",
+    "comment": "28.1 MJ/kg Feedstock Energy  (Included). Based on market average consumption of types of PVC in the European construction industry",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "PVC Pipe",
+    "co2e_per_kg": 3.23,
+    "unit": "kgCO2e/kg",
+    "comment": "24.4 MJ/kg Feedstock Energy  (Included). If biomass benefits are included the CO2 may reduce to 2.51 kgCO2/kg, and GWP down to 3.23 kg CO2e/kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Calendered Sheet PVC",
+    "co2e_per_kg": 3.19,
+    "unit": "kgCO2e/kg",
+    "comment": "24.4 MJ/kg Feedstock Energy  (Included). If biomass benefits are included the CO2 may reduce to 2.56 kgCO2/kg, and GWP down to 3.15 kg CO2e/kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "PVC Injection Moulding",
+    "co2e_per_kg": 3.3,
+    "unit": "kgCO2e/kg",
+    "comment": "35.1 MJ/kg Feedstock Energy  (Included). If biomass benefits are included the CO2 may reduce to 2.23 kgCO2/kg, and GWP down to 2.84 kg CO2e/kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "UPVC Film",
+    "co2e_per_kg": 3.16,
+    "unit": "kgCO2e/kg",
+    "comment": "25.3 MJ/kg Feedstock Energy  (Included)",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Rubber, Synthetic",
+    "co2e_per_kg": 2.54693,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 61 datapoints. This data has not considered differences between different synthetic rubbers (e.g., EPDM, Silicone etc.), and has also not considered % recycled rubber content which can range considerably between the data sources. Further research to address these would be beneficial.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "General (Rammed Soil)",
+    "material": "Cement stabilised soil @ 5%",
+    "co2e_per_kg": 0.061,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 5% cement content.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "General (Rammed Soil)",
+    "material": "Cement stabilised soil @ 8%",
+    "co2e_per_kg": 0.084,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 8% stabiliser content (6% cement and 2% lime).",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "General (Rammed Soil)",
+    "material": "GGBS stabilised soil",
+    "co2e_per_kg": 0.047,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 8% stabiliser content (8% GGBS and 2% lime).",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "General (Rammed Soil)",
+    "material": "Fly ash stabilised soil",
+    "co2e_per_kg": 0.041,
+    "unit": "kgCO2e/kg",
+    "comment": "Assumed 10% stabiliser content (8% fly ash and 2% lime).",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Steel, UO Pipe",
+    "material": "Steel, Tin-free Electrolytic Chrome Coated Steel Sheet - Tin-free (ECCS)",
+    "co2e_per_kg": 2.87,
+    "unit": "kgCO2e/kg",
+    "comment": "worldsteel 2023 study. Also known as Electrolytic Chrome Coated Steel (ECCS). Obtained by electro plating a thin finished cold rolled coil with a thin layer of chrome. It can be found on the market in coil or in sheets and is further processed into finished products by the manufacturers. ECCS is used primarily in food cans, industrial packaging (e.g. small drums). Typical thickness between 0.13 - 0.49 mm. Typical width between 600 - 1100 mm. System expansion was used on the steel, e.g. for blast furnace slag and other co-products. The influence of system expansion to the GWP for steel products is 3 to 7% lower GWP. At an EOL recovery rate of 85%. Module D impact of -1.4 kg CO2e per kg ('-' magnitude is a benefit, '+' magnitude a burden). This gives a net life cycle inc Mod D, of 1.47 kg CO2e per kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Steel, UO Pipe",
+    "material": "Steel, electrogalvanized steel",
+    "co2e_per_kg": 2.71,
+    "unit": "kgCO2e/kg",
+    "comment": "worldsteel 2023 study. Obtained by electro plating finished cold rolled steel with a thin layer of zinc or zinc-nickel to provide corrosion resistance. It can be found on the market in coil or in sheets and is further processed into finished products by the manufacturers. Hot Dip Galvanized Steel features excellent forming properties, paintability, weldability, and is suitable for fabrication by forming, pressing and bending. Applications include domestic applications, building applications (e.g. wall elements, roofing applications), automotive applications (e.g. body in white for vehicles underbody auto parts), lighting fixtures, drums and various kinds of sections applications, profiled sheets, etc. Typical thickness between 0.3 - 3 mm. Typical width between 600 - 2100 mm. System expansion was used on the steel, e.g. for blast furnace slag and other co-products. The influence of system expansion to the GWP for steel products is 3 to 7% lower GWP. Contact Worldsteel for more information. At an EOL recovery rate of 85%. Module D impact of -1.34 kg CO2e per kg ('-' magnitude is a benefit, '+' magnitude a burden). This gives a net life cycle inc Mod D, of 1.37 kg CO2e per kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Steel, UO Pipe",
+    "material": "Steel, welded pipe",
+    "co2e_per_kg": 2.51,
+    "unit": "kgCO2e/kg",
+    "comment": "worldsteel 2023 study. A flat plate steel coil that is bended and welded into a tube. It can be found on the market for final use. A heavy-wall pipe is technically used to transport fluids (e.g. oil, gases, water, chemicals). System expansion was used on the steel, e.g. for blast furnace slag and other co-products. The influence of system expansion to the GWP for steel products is 3 to 7% lower GWP.  Contact Worldsteel for more information. At an EOL recovery rate of 85%. Module D impact of -1.4 kg CO2e per kg ('-' magnitude is a benefit, '+' magnitude a burden). This gives a net life cycle inc Mod D, of 1.11 kg CO2e per kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Steel, UO Pipe",
+    "material": "Steel, Organic coated sheet",
+    "co2e_per_kg": 2.88,
+    "unit": "kgCO2e/kg",
+    "comment": "worldsteel 2023 study. Obtained by coating a steel substrate with organic layers such as paint or laminated film. The substrate is mainly hot dip galvanized coil but may also be electrogalvanized coil, finished cold rolled coil or tin-free steel. It can be found on the market in coil or in sheets and is further processed into finished products by the manufacturers. Organic coated Steel is use in all activity sectors like construction (roof, wall and ceiling claddings, lighting, radiators etc), general industry (e.g. office furniture, heating, ventilating, air conditioning), domestic appliances (refrigerators, washing machines, small kitchen appliances, computer casings, VCR & DVD casings, etc) and packaging. Typical thickness between 0.15 - 1.5 mm. Typical width between 600 - 1300 mm. System expansion was used on the steel, e.g. for blast furnace slag and other co-products. The influence of system expansion to the GWP for steel products is 3 to 7% lower GWP.  Contact Worldsteel for more information. At an EOL recovery rate of 85%. Module D impact of -1.27 kg CO2e per kg ('-' magnitude is a benefit, '+' magnitude a burden). This gives a net life cycle inc Mod D, of 1.61 kg CO2e per kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Steel, UO Pipe",
+    "material": "Steel, Tinplate",
+    "co2e_per_kg": 2.7,
+    "unit": "kgCO2e/kg",
+    "comment": "worldsteel 2023 study. Obtained by electro plating a thin finished cold rolled coil with a thin layer of tin. It can be found on the market in coil or in sheets and is further processed into finished products by the manufacturers. Tin plated steel is used primarily in food cans, industrial packaging (e.g. small drums) Typical thickness between 0.13 - 0.49 mm. Typical width between 600 - 1100 mm. System expansion was used on the steel, e.g. for blast furnace slag and other co-products. The influence of system expansion to the GWP for steel products is 3 to 7% lower GWP.  Contact Worldsteel for more information. At an EOL recovery rate of 85%. Module D impact of -1.28 kg CO2e per kg ('-' magnitude is a benefit, '+' magnitude a burden). This gives a net life cycle inc Mod D, of 1.42 kg CO2e per kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Steel, UO Pipe",
+    "material": "Steel, finished cold-rolled coil",
+    "co2e_per_kg": 2.57,
+    "unit": "kgCO2e/kg",
+    "comment": "worldsteel 2023 study. Obtained by heat treatment (annealing) and strain-hardening of cold rolled steel in a way to achieve final mechanical properties making the steel suitable for further uses (forming and bending). Finished Cold Rolled Steel includes a wide range of different steels which can be classified into the following main groups: formable steels, high strength formable steels, weathering structural steels, structural steels, hardenable steels. It can be found on the market in coil or in sheets and is further processed into finished products by the manufacturers. Finished Cold-rolled Steel features excellent forming properties, electromagnetic properties, paintability, weldability, and is suitable for fabrication by forming, pressing and bending. Applications include domestic applications, automotive applications, lighting fixtures, electrical components (stators, rotors) and various kinds of sections roofing applications, profiled sheets, wall elements, etc. Typical thickness between 0.3 - 3 mm. Typical width between 600 - 2100 mm. System expansion was used on the steel, e.g. for blast furnace slag and other co-products. The influence of system expansion to the GWP for steel products is 3 to 7% lower GWP.  Contact Worldsteel for more information. At an EOL recovery rate of 85%. Module D impact of -1.22 kg CO2e per kg ('-' magnitude is a benefit, '+' magnitude a burden). This gives a net life cycle inc Mod D, of 1.35 kg CO2e per kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Steel, UO Pipe",
+    "material": "Steel, hot-dip galvanized steel",
+    "co2e_per_kg": 2.62,
+    "unit": "kgCO2e/kg",
+    "comment": "worldsteel 2023 study. Obtained by passing cold rolled coil through a molten zinc bath, in order to coat the steel with a thin layer of zinc to provide corrosion resistance. It can be found on the market in coil or in sheets and is further processed into finished products by the manufacturers. Hot Dip Galvanized Steel features excellent forming properties, paintability, weldability, and is suitable for fabrication by forming, pressing and bending. Applications include domestic applications, building applications (e.g. wall elements, roofing applications), automotive applications (e.g. body in white for vehicles underbody auto parts), lighting fixtures, drums and various kinds of sections applications, profiled sheets, etc. Typical thickness between 0.3 - 3 mm. Typical width between 600 - 2100 mm. System expansion was used on the steel, e.g. for blast furnace slag and other co-products. The influence of system expansion to the GWP for steel products is 3 to 7% lower GWP.  Contact Worldsteel for more information. At an EOL recovery rate of 85%. Module D impact of -1.21 kg CO2e per kg ('-' magnitude is a benefit, '+' magnitude a burden). This gives a net life cycle inc Mod D, of 1.41 kg CO2e per kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Steel, UO Pipe",
+    "material": "Steel, Plate",
+    "co2e_per_kg": 2.38,
+    "unit": "kgCO2e/kg",
+    "comment": "worldsteel 2023 study. A flat steel sheet rolled on a hot rolling mill. It can be found on the market in sheets and is further processed into finished products by the manufacturers. Heavy plate is used in a large number of sectors: structural steels, shipbuilding, pipes, pressure vessels, boilers, heavy metal structures, offshore structures etc. Typical thickness between 2 to 20 mm. The maximum width is 1860 mm. System expansion was used on the steel, e.g. for blast furnace slag and other co-products. The influence of system expansion to the GWP for steel products is 3 to 7% lower GWP.  Contact Worldsteel for more information. At an EOL recovery rate of 85%. Module D impact of -1.22 kg CO2e per kg ('-' magnitude is a benefit, '+' magnitude a burden). This gives a net life cycle inc Mod D, of 1.16 kg CO2e per kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Steel, UO Pipe",
+    "material": "Steel, Cold Rolled Coil",
+    "co2e_per_kg": 2.47,
+    "unit": "kgCO2e/kg",
+    "comment": "worldsteel 2023 study. Obtained by a further thickness reduction of a pickled hot rolled coil. This step is achieved at low temperature in a cold-reduction mill. It can be found on the market in coil, but requires a further heating process before being manufactured into finished products. The various types of cold rolled steel are used as primary material for finished cold rolled coils & coated coils. Typical thickness between 0.15 - 3 mm. Typical width between 600 - 2100 mm. System expansion was used on the steel, e.g. for blast furnace slag and other co-products. The influence of system expansion to the GWP for steel products is 3 to 7% lower GWP.  Contact Worldsteel for more information. At an EOL recovery rate of 85%. Module D impact of -1.2 kg CO2e per kg ('-' magnitude is a benefit, '+' magnitude a burden). This gives a net life cycle inc Mod D, of 1.27 kg CO2e per kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Steel, UO Pipe",
+    "material": "Steel, pickled hot-rolled coil",
+    "co2e_per_kg": 2.38,
+    "unit": "kgCO2e/kg",
+    "comment": "worldsteel 2023 study. Hot rolled steel from which the iron oxides present at the surface have been removed in a pickling process. It can be found on the market in coil or in sheets and is further processed into finished products by the manufacturers. The various types of pickled hot rolled steel have applications in virtually all sectors of industry: transport, construction, shipbuilding, gas containers, pressure vessels, energy pipelines, etc. Typical thickness between 2 - 7 mm. Typical width between 600 - 2100 mm. System expansion was used on the steel, e.g. for blast furnace slag and other co-products. The influence of system expansion to the GWP for steel products is 3 to 7% lower GWP.  Contact Worldsteel for more information. At an EOL recovery rate of 85%. Module D impact of -1.17 kg CO2e per kg ('-' magnitude is a benefit, '+' magnitude a burden). This gives a net life cycle inc Mod D, of 1.21 kg CO2e per kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Steel, UO Pipe",
+    "material": "Steel, Wire rod",
+    "co2e_per_kg": 2.16,
+    "unit": "kgCO2e/kg",
+    "comment": "worldsteel 2023 study. Wire rod is a rolled steel product, produced from a semi and having a round, rectangular or other cross-section. Particularly fine cross-sections may be achieved by subsequent cold forming (drawing). Wire rod is wound into coils and transported in this form. System expansion was used on the steel, e.g. for blast furnace slag and other co-products. The influence of system expansion to the GWP for steel products is 3 to 7% lower GWP.  Contact Worldsteel for more information. At an EOL recovery rate of 85%. Module D impact of -1 kg CO2e per kg ('-' magnitude is a benefit, '+' magnitude a burden). This gives a net life cycle inc Mod D, of 1.16 kg CO2e per kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Steel, UO Pipe",
+    "material": "Steel, Hot Rolled Coil",
+    "co2e_per_kg": 2.26,
+    "unit": "kgCO2e/kg",
+    "comment": "worldsteel 2023 study. Steel coil rolled on a hot-strip mill. It can be found on the market in coil or in sheets and is further processed into finished products by the manufacturers. The various types of hot rolled steel have applications in virtually all sectors of industry: transport, construction, shipbuilding, gas containers, pressure vessels, energy pipelines, etc.  Hot rolled steel sheet with an anti-slip surface and a diamond or teardrop pattern are typically used for stairs, industrial floors and tailboards for goods vehicles. Typical thickness between 2 - 7 mm. Typical width between 600 - 2100 mm. System expansion was used on the steel, e.g. for blast furnace slag and other co-products. The influence of system expansion to the GWP for steel products is 3 to 7% lower GWP.  Contact Worldsteel for more information. At an EOL recovery rate of 85%. Module D impact of -1.19 kg CO2e per kg ('-' magnitude is a benefit, '+' magnitude a burden). This gives a net life cycle inc Mod D, of 1.07 kg CO2e per kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Steel, UO Pipe",
+    "material": "Steel, Rebar",
+    "co2e_per_kg": 1.72,
+    "unit": "kgCO2e/kg",
+    "comment": "worldsteel 2023 study. For European rebar see separate data. A steel reinforcing bar is rolled on a hot rolling mill. It can be found on the market for direct use or is further processed into finished products by the manufacturers. This product is used to strengthen concrete in highway and building construction also as primary product for the wire rod process. System expansion was used on the steel, e.g. for blast furnace slag and other co-products. The influence of system expansion to the GWP for steel products is 3 to 7% lower GWP.  Contact Worldsteel for more information. At an EOL recovery rate of 85%. Module D impact of -0.56 kg CO2e per kg ('-' magnitude is a benefit, '+' magnitude a burden). This gives a net life cycle inc Mod D, of 1.16 kg CO2e per kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Steel, UO Pipe",
+    "material": "Steel, Section",
+    "co2e_per_kg": 1.61,
+    "unit": "kgCO2e/kg",
+    "comment": "worldsteel 2023 study. A steel section rolled on a hot rolling mill. Steel Sections include I-beams, H-beams, wide-flange beams, and sheet piling. It can be found on the market for direct use. This product is used in construction, multi-story buildings, industrial buildings, bridge trusses, vertical highway supports, and riverbank reinforcement. System expansion was used on the steel, e.g. for blast furnace slag and other co-products. The influence of system expansion to the GWP for steel products is 3 to 7% lower GWP.  Contact Worldsteel for more information. At an EOL recovery rate of 85%. Module D impact of -0.2 kg CO2e per kg ('-' magnitude is a benefit, '+' magnitude a burden). This gives a net life cycle inc Mod D, of 1.41 kg CO2e per kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Steel, UO Pipe",
+    "material": "Steel, Engineering steel",
+    "co2e_per_kg": 1.64,
+    "unit": "kgCO2e/kg",
+    "comment": "worldsteel 2023 study. Engineering Steel is rolled on a Hot Rolling mill. It can be found on the market and is further processed into finished products by the manufacturers This steel is used in the manufacture of tools, dies, components for engines, drives, equipment, transmissions, etc. System expansion was used on the steel, e.g. for blast furnace slag and other co-products. The influence of system expansion to the GWP for steel products is 3 to 7% lower GWP.  Contact Worldsteel for more information. At an EOL recovery rate of 85%. Module D impact of 0.1 kg CO2e per kg ('-' magnitude is a benefit, '+' magnitude a burden). This gives a net life cycle inc Mod D, of 1.74 kg CO2e per kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Steel, UO Pipe",
+    "material": "Steel, global seamless tube",
+    "co2e_per_kg": 1.9,
+    "unit": "kgCO2e/kg",
+    "comment": "worldsteel 2023 study. seamless tube.  At an EOL recovery rate of 85%. Module D impact of -0.38 kg CO2e per kg ('-' magnitude is a benefit, '+' magnitude a burden). This gives a net life cycle inc Mod D, of 1.52 kg CO2e per kg.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Steel rebar, recycled, Europe EAF mid range",
+    "co2e_per_kg": 0.73,
+    "unit": "kgCO2e/kg",
+    "comment": "This entry is an average of 29 datapoints. It should not be taken as representative of European rebar, the datapoints were all for EAF steel. Steel rebar is also made in the primary production route in Europe.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Steel, Stainless",
+    "co2e_per_kg": 4.177857,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of 28 datapoints. This data hasn’t been able to consider differences in recycled content. Further research to address this would be beneficial.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "General",
+    "co2e_per_kg": 0.079,
+    "unit": "kgCO2e/kg",
+    "comment": "ICE database average (statistic), uncertain. See material profile.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Granite",
+    "co2e_per_kg": 0.7,
+    "unit": "kgCO2e/kg",
+    "comment": "Estimated from Ref 116.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Limestone",
+    "co2e_per_kg": 0.09,
+    "unit": "kgCO2e/kg",
+    "comment": "Estimated from Ref 188.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Marble",
+    "co2e_per_kg": 0.13,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Marble tile",
+    "co2e_per_kg": 0.21,
+    "unit": "kgCO2e/kg",
+    "comment": "Ref. 40.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Sandstone",
+    "co2e_per_kg": 0.06,
+    "unit": "kgCO2e/kg",
+    "comment": "Uncertain estimate based on Ref. 262.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Shale",
+    "co2e_per_kg": 0.002,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber - Average of all data - No Carbon Storage",
+    "co2e_per_kg": 0.492826,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 211 datapoints. This is not a weighted average. It is an average of all data collected on timber. Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Chipboard - No Carbon Storage",
+    "co2e_per_kg": 0.400164,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 6 datapoints.  Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Closed panel timber frame system - No Carbon Storage",
+    "co2e_per_kg": 0.452459,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 1 datapoints. This dataset is based upon a single datapoint. It may therefore be subject to larger uncertainty than normal. Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, CLT - No Carbon Storage",
+    "co2e_per_kg": 0.25,
+    "unit": "kgCO2e/kg",
+    "comment": "Data from IStructE 2nd edition embodied carbon guide. European produced. Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Fibreboard - No Carbon Storage",
+    "co2e_per_kg": 0.715307,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 5 datapoints. This dataset is based upon a small sample size.  It may therefore be subject to larger uncertainty than normal. Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Glulam - No Carbon Storage",
+    "co2e_per_kg": 0.28,
+    "unit": "kgCO2e/kg",
+    "comment": "Data from IStructE 2nd edition embodied carbon guide. European produced. Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Hardboard - No Carbon Storage",
+    "co2e_per_kg": 0.815248,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 1 datapoints. This dataset is based upon a single datapoint. It may therefore be subject to larger uncertainty than normal. Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Hardwood - No Carbon Storage",
+    "co2e_per_kg": 0.305561,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 22 datapoints.  Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Laminate - No Carbon Storage",
+    "co2e_per_kg": 0.697763,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 11 datapoints.  Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Laminated strand lumber - No Carbon Storage",
+    "co2e_per_kg": 0.504079,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 1 datapoints. This dataset is based upon a single datapoint. It may therefore be subject to larger uncertainty than normal. Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Laminated veneer lumber - No Carbon Storage",
+    "co2e_per_kg": 0.389802,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 5 datapoints. This dataset is based upon a small sample size.  It may therefore be subject to larger uncertainty than normal. Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, MDF - No Carbon Storage",
+    "co2e_per_kg": 0.856454,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 13 datapoints.  Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Open panel timber frame system - No Carbon Storage",
+    "co2e_per_kg": 0.345178,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 1 datapoints. This dataset is based upon a single datapoint. It may therefore be subject to larger uncertainty than normal. Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, OSB - No Carbon Storage",
+    "co2e_per_kg": 0.455069,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 16 datapoints.  Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Parquet - No Carbon Storage",
+    "co2e_per_kg": 0.811219,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 8 datapoints.  Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Particle Board - No Carbon Storage",
+    "co2e_per_kg": 0.664266,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 13 datapoints.  Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Plywood - No Carbon Storage",
+    "co2e_per_kg": 0.681464,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 11 datapoints.  Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Softwood - No Carbon Storage",
+    "co2e_per_kg": 0.262594,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 43 datapoints.  Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Wood I-Beam - No Carbon Storage",
+    "co2e_per_kg": 0.483302,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 37 datapoints.  Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Wood-plastic composite - No Carbon Storage",
+    "co2e_per_kg": 1.44,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 1 datapoints. This dataset is based upon a single datapoint. It may therefore be subject to larger uncertainty than normal. Excludes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber - Average of all data - Including Carbon Storage",
+    "co2e_per_kg": -1.030893,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 211 datapoints. This is not a weighted average. It is an average of all data collected on timber. Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Chipboard - Including Carbon Storage",
+    "co2e_per_kg": -1.120669,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 6 datapoints.  Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Closed panel timber frame system - Including Carbon Storage",
+    "co2e_per_kg": -1.101639,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 1 datapoints. This dataset is based upon a single datapoint. It may therefore be subject to larger uncertainty than normal. Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, CLT - Including Carbon Storage",
+    "co2e_per_kg": -1.391414,
+    "unit": "kgCO2e/kg",
+    "comment": "Data from IStructE 2nd edition embodied carbon guide. European produced. Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Fibreboard - Including Carbon Storage",
+    "co2e_per_kg": -0.863168,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 5 datapoints. This dataset is based upon a small sample size.  It may therefore be subject to larger uncertainty than normal. Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Glulam - Including Carbon Storage",
+    "co2e_per_kg": -1.127871,
+    "unit": "kgCO2e/kg",
+    "comment": "Data from IStructE 2nd edition embodied carbon guide. European produced. Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Hardboard - Including Carbon Storage",
+    "co2e_per_kg": -0.823964,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 1 datapoints. This dataset is based upon a single datapoint. It may therefore be subject to larger uncertainty than normal. Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Hardwood - Including Carbon Storage",
+    "co2e_per_kg": -1.285974,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 22 datapoints.  Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Laminate - Including Carbon Storage",
+    "co2e_per_kg": -0.580436,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 11 datapoints.  Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Laminated strand lumber - Including Carbon Storage",
+    "co2e_per_kg": -1.084076,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 1 datapoints. This dataset is based upon a single datapoint. It may therefore be subject to larger uncertainty than normal. Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Laminated veneer lumber - Including Carbon Storage",
+    "co2e_per_kg": -1.246589,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 5 datapoints. This dataset is based upon a small sample size.  It may therefore be subject to larger uncertainty than normal. Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, MDF - Including Carbon Storage",
+    "co2e_per_kg": -0.643745,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 13 datapoints.  Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Open panel timber frame system - Including Carbon Storage",
+    "co2e_per_kg": -1.269036,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 1 datapoints. This dataset is based upon a single datapoint. It may therefore be subject to larger uncertainty than normal. Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, OSB - Including Carbon Storage",
+    "co2e_per_kg": -1.04728,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 16 datapoints.  Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Parquet - Including Carbon Storage",
+    "co2e_per_kg": -0.813017,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 8 datapoints.  Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Particle Board - Including Carbon Storage",
+    "co2e_per_kg": -0.814999,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 13 datapoints.  Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Plywood - Including Carbon Storage",
+    "co2e_per_kg": -0.933068,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 11 datapoints.  Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Softwood - Including Carbon Storage",
+    "co2e_per_kg": -1.291861,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 43 datapoints.  Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Wood I-Beam - Including Carbon Storage",
+    "co2e_per_kg": -1.049938,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 37 datapoints.  Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Timber, Wood-plastic composite - Including Carbon Storage",
+    "co2e_per_kg": 0.58,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 1 datapoints. This dataset is based upon a single datapoint. It may therefore be subject to larger uncertainty than normal. Includes Carbon Storage.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Tin Coated Plate (Steel)",
+    "material": "Tin",
+    "co2e_per_kg": 14.47,
+    "unit": "kgCO2e/kg",
+    "comment": "lack of modern data, large data range",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Vinyl, Sheet",
+    "co2e_per_kg": 2.397673,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 106 datapoints.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Vinyl, Tile",
+    "co2e_per_kg": 1.740084,
+    "unit": "kgCO2e/kg",
+    "comment": "Average of data collected, 171 datapoints.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "General",
+    "co2e_per_kg": 3.09,
+    "unit": "kgCO2e/kg",
+    "comment": "Uncertain carbon estimates, currently estimated from typical UK industrial fuel mix. Recycled content of general Zinc 30%.",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Virgin",
+    "co2e_per_kg": 4.18,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  },
+  {
+    "category": "Materials",
+    "material": "Recycled",
+    "co2e_per_kg": 0.52,
+    "unit": "kgCO2e/kg",
+    "comment": "",
+    "source": "ICE Database V4.1 (Oct 2025)"
+  }
+]
