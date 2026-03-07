@@ -25,6 +25,34 @@ class GenerateRequest(BaseModel):
 
 
 # ---------------------------------------------------------------------------
+# Edit request — mask-based region editing
+# ---------------------------------------------------------------------------
+
+class EditRequest(BaseModel):
+    model_config = ConfigDict(str_strip_whitespace=True)
+
+    prompt: str = Field(..., min_length=1, description="Describe what to place in the painted region")
+    image_base64: str = Field(..., description="Raw base64 PNG of the current design iteration")
+    mask_base64: str = Field(
+        ...,
+        description=(
+            "RGBA PNG mask (base64). "
+            "Painted pixels = alpha 255 (opaque) → server inverts to transparent = replace. "
+            "Unpainted pixels = alpha 0 (transparent) → server inverts to opaque = keep."
+        ),
+    )
+    session_id: str = Field(
+        default_factory=lambda: str(uuid.uuid4()),
+        description="Session identifier; reuse the existing session_id to chain iterations",
+    )
+    username: str = Field(..., min_length=1, description="Display name from login")
+    room_type: Literal["office", "living_room", "patient_room", "free_flowing"] = Field(
+        default="living_room",
+        description="Type of room being designed (supplies prompt prefix)",
+    )
+
+
+# ---------------------------------------------------------------------------
 # Material identification (vision model output)
 # ---------------------------------------------------------------------------
 

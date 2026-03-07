@@ -6,6 +6,12 @@ Directory layout
   backend/data/sessions/{username}/{session_id}.json
       JSON array of serialised Iteration objects (oldest first).
 
+  backend/data/sessions/{username}/{session_id}.rid
+      Plain-text file holding the latest OpenAI response_id for a session.
+      Used by the Responses API to chain iterative image refinements.
+      Overwritten on every successful generation; deleted implicitly when a
+      new session starts (different session_id → no .rid file present).
+
   backend/data/sessions/{username}/images/{session_id}_{iteration_number}.png
       Raw PNG files decoded from the base64 payload.
 
@@ -15,12 +21,14 @@ All writes go to a sibling .tmp file first, then os.replace() renames it
 into place.  os.replace() is atomic on POSIX and best-effort on Windows.
 
 Public API (signatures match the old in-memory module, plus `username`):
-  get_history(session_id, username)            → list[Iteration]
-  get_next_iteration_number(session_id, username) → int
+  get_history(session_id, username)                 → list[Iteration]
+  get_next_iteration_number(session_id, username)   → int
   add_iteration(session_id, iteration, image_base64, username) → None
   get_image(session_id, iteration_number, username) → str | None
-  session_exists(session_id, username)         → bool
-  get_all_sessions(username)                   → dict[str, list[Iteration]]
+  session_exists(session_id, username)              → bool
+  get_all_sessions(username)                        → dict[str, list[Iteration]]
+  save_response_id(session_id, username, response_id) → None
+  get_response_id(session_id, username)             → str | None
 """
 
 from __future__ import annotations
@@ -64,6 +72,11 @@ def _session_file(session_id: str, username: str) -> Path:
 
 def _image_file(session_id: str, iteration_number: int, username: str) -> Path:
     return _user_dir(username) / "images" / f"{session_id}_{iteration_number}.png"
+
+
+def _rid_file(session_id: str, username: str) -> Path:
+    """Sidecar file storing the latest OpenAI response_id for a session."""
+    return _user_dir(username) / f"{session_id}.rid"
 
 
 # ---------------------------------------------------------------------------
@@ -212,3 +225,49 @@ def get_all_sessions(username: str) -> dict[str, list["Iteration"]]:
             result[session_id] = iterations
 
     return result
+
+
+# ---------------------------------------------------------------------------
+# OpenAI response_id persistence (for iterative image refinement)
+# ---------------------------------------------------------------------------
+
+def save_response_id(session_id: str, username: str, response_id: str) -> None:
+    """
+    Persist the latest OpenAI response_id for *session_id*.
+
+    Called after every successful image generation.  The value is
+    overwritten on each call so only the most-recent response_id is kept —
+    that is all the Responses API needs for the next refinement step.
+    """
+    path = _rid_file(session_id, username)
+    try:
+        _atomic_write_text(path, response_id)
+        logger.debug(
+            "Saved response_id for session %s / user %s",
+            session_id, _safe(username),
+        )
+    except Exception as exc:
+        # Non-fatal: worst case the next iteration starts fresh
+        logger.warning(
+            "Could not persist response_id for session %s: %s", session_id, exc
+        )
+
+
+def get_response_id(session_id: str, username: str) -> str | None:
+    """
+    Return the stored OpenAI response_id for *session_id*, or None.
+
+    Returns None if the file doesn't exist (new session) or cannot be read
+    (safe degradation — generator will start fresh).
+    """
+    path = _rid_file(session_id, username)
+    if not path.exists():
+        return None
+    try:
+        rid = path.read_text(encoding="utf-8").strip()
+        return rid if rid else None
+    except Exception as exc:
+        logger.warning(
+            "Could not read response_id for session %s: %s", session_id, exc
+        )
+        return None

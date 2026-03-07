@@ -8,10 +8,10 @@ from typing import Literal
 
 from config import settings
 from api.routes import router
-from api.schemas import GenerateRequest
+from api.schemas import EditRequest, GenerateRequest
 from pipeline.generator import generate_image
 from pipeline.identifier import identify_materials_with_consistency
-from pipeline.orchestrator import run_pipeline
+from pipeline.orchestrator import run_edit_pipeline, run_pipeline
 from store.sessions import get_image, get_all_sessions
 
 app = FastAPI(
@@ -130,6 +130,32 @@ async def generate(request: GenerateRequest):
         raise HTTPException(status_code=500, detail=str(exc))
     except Exception as exc:
         raise HTTPException(status_code=502, detail=f"Pipeline error: {exc}")
+
+
+# ---------------------------------------------------------------------------
+# Edit endpoint — mask-based region editing
+# ---------------------------------------------------------------------------
+
+@app.post("/api/edit", response_model=None, tags=["pipeline"])
+async def edit_region(request: EditRequest):
+    """
+    Edit a specific region of an existing design using a user-drawn mask.
+
+    The mask is an RGBA PNG (base64-encoded) where painted pixels have
+    alpha = 255 (opaque) and unpainted pixels have alpha = 0 (transparent).
+    The server inverts the alpha before passing it to gpt-image-1's
+    images.edit API, which uses the transparent areas as the edit zone.
+
+    Returns a GenerateResponse — same schema as /api/generate — with the
+    edited image stored as a new iteration in the session.
+    """
+    try:
+        response = await run_edit_pipeline(request)
+        return response
+    except RuntimeError as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
+    except Exception as exc:
+        raise HTTPException(status_code=502, detail=f"Edit pipeline error: {exc}")
 
 
 # ---------------------------------------------------------------------------

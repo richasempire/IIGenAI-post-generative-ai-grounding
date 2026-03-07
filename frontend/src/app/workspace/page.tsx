@@ -10,7 +10,7 @@ import GeneratedImage from "@/components/GeneratedImage";
 import MaterialTile from "@/components/MaterialTile";
 import MaterialDrawer from "@/components/MaterialDrawer";
 import HistoryPanel from "@/components/HistoryPanel";
-import { generateDesign, getAllSessions } from "@/lib/api";
+import { editDesign, generateDesign, getAllSessions, getImageSrc } from "@/lib/api";
 import type { Iteration, RoomType, GroundedMaterial } from "@/lib/api";
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -54,6 +54,9 @@ export default function WorkspacePage() {
   const [error, setError] = useState<string | null>(null);
   const [drawerMaterial, setDrawerMaterial] = useState<GroundedMaterial | null>(null);
   const [showHistory, setShowHistory] = useState(false);
+
+  // ── Edit mode — stores the captured mask PNG (base64) until prompt is submitted ──
+  const [pendingMask, setPendingMask] = useState<string | null>(null);
 
   // ── Derived: everything the history panel can show ──────────────────────────
   const historyForPanel = useMemo(
@@ -114,16 +117,55 @@ export default function WorkspacePage() {
     return () => document.removeEventListener("keydown", handler);
   }, [closeAll]);
 
-  // ── Generate ─────────────────────────────────────────────────────────────────
+  // ── Mask capture — called by GeneratedImage when user clicks "Apply Edit" ────
+  const handleMaskCapture = useCallback((maskBase64: string) => {
+    setPendingMask(maskBase64);
+    // The "region captured" banner appears above PromptBar;
+    // the user types a prompt there and submits to trigger handleGenerate.
+  }, []);
+
+  // ── Generate (or edit if a mask is pending) ───────────────────────────────
   const handleGenerate = async (prompt: string, roomType: RoomType) => {
     setLoading(true);
     setError(null);
     setDrawerMaterial(null);
 
     try {
-      const response = await generateDesign(
-        prompt, roomType, sessionId ?? undefined, username,
-      );
+      let response;
+
+      if (pendingMask && activeIteration) {
+        // ── Edit mode: fetch the current image and POST to /api/edit ────────
+        const imageRes  = await fetch(getImageSrc(activeIteration.image_url));
+        const imageBlob = await imageRes.blob();
+
+        // Convert blob → raw base64 (strip data-URL prefix)
+        const imageBase64 = await new Promise<string>((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onloadend = () => {
+            const result = reader.result as string;
+            resolve(result.split(",")[1] ?? result);
+          };
+          reader.onerror = reject;
+          reader.readAsDataURL(imageBlob);
+        });
+
+        response = await editDesign({
+          prompt,
+          image_base64: imageBase64,
+          mask_base64:  pendingMask,
+          session_id:   sessionId ?? undefined,
+          username,
+          room_type:    roomType,
+        });
+
+        setPendingMask(null);   // clear the captured mask after sending
+      } else {
+        // ── Normal generate ──────────────────────────────────────────────────
+        response = await generateDesign(
+          prompt, roomType, sessionId ?? undefined, username,
+        );
+      }
+
       const newIterations = [...response.history, response.current_iteration];
       setSessionId(response.session_id);
       setCurrentIterations(newIterations);
@@ -146,6 +188,7 @@ export default function WorkspacePage() {
     setActiveImageUrl(null);
     setDrawerMaterial(null);
     setShowHistory(false);
+    setPendingMask(null);
     setError(null);
   };
 
@@ -213,33 +256,43 @@ export default function WorkspacePage() {
           </div>
         )}
 
-        {/* Image area */}
-        <div className="flex-1 min-h-0 flex items-center justify-center p-2">
-          {isEmpty     && <CenteredPrompt onGenerate={handleGenerate} loading={loading} />}
-          {showLoader  && <PipelineLoader />}
-          {showImage   && (
-            <GeneratedImage
-              imageUrl={activeIteration.image_url}
-              loading={false}
-              alt={activeIteration.prompt}
-            />
-          )}
-        </div>
-
-        {/* Material tiles strip */}
-        {showTiles && (
-          <div className="h-28 shrink-0 border-t border-wire flex items-center gap-3 px-5 overflow-x-auto">
-            {activeIteration.materials.map((m, i) => (
-              <MaterialTile
-                key={`${m.name}-${i}`}
-                material={m}
-                onClick={() => handleOpenDrawer(m)}
-              />
-            ))}
+        {/* ── Empty or loading state: centred ── */}
+        {(isEmpty || showLoader) && (
+          <div className="flex-1 min-h-0 flex items-center justify-center">
+            {isEmpty    && <CenteredPrompt onGenerate={handleGenerate} loading={loading} />}
+            {showLoader && <PipelineLoader />}
           </div>
         )}
 
-        {/* Tile skeletons during first load */}
+        {/* ── Results state: image + tiles, no scrolling ── */}
+        {showImage && (
+          <div className="flex-1 min-h-0 flex flex-col justify-center overflow-hidden">
+            {/* Image — centred both axes, height-constrained so the page never scrolls */}
+            <div className="px-5 flex justify-center shrink-0">
+              <GeneratedImage
+                imageUrl={activeIteration.image_url}
+                loading={false}
+                alt={activeIteration.prompt}
+                onMaskCapture={handleMaskCapture}
+              />
+            </div>
+
+            {/* Material tiles — immediately below the image */}
+            {showTiles && (
+              <div className="shrink-0 flex items-center justify-center gap-3 px-5 pt-3 pb-3 overflow-x-auto">
+                {activeIteration.materials.map((m, i) => (
+                  <MaterialTile
+                    key={`${m.name}-${i}`}
+                    material={m}
+                    onClick={() => handleOpenDrawer(m)}
+                  />
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Tile skeletons shown below the pipeline loader on first generation */}
         {isFirstLoad && (
           <div className="h-28 shrink-0 border-t border-wire flex items-center gap-3 px-5">
             {[...Array(6)].map((_, i) => (
@@ -252,10 +305,28 @@ export default function WorkspacePage() {
           </div>
         )}
 
-        {/* Bottom prompt bar */}
+        {/* Bottom prompt bar (+ edit-mode banner when a mask is pending) */}
         {showPromptBar && (
           <div className="shrink-0 border-t border-wire">
-            <PromptBar onGenerate={handleGenerate} loading={loading} />
+            {/* Region-captured banner — tells the user to describe the change */}
+            {pendingMask && (
+              <div className="mx-6 mt-3 flex items-center gap-2.5 bg-panel border border-wire rounded-lg px-4 py-2">
+                <div
+                  className="w-2 h-2 rounded-full shrink-0"
+                  style={{ backgroundColor: "#6b8f71" }}
+                />
+                <span className="flex-1 text-[11px] font-mono text-ghost">
+                  Region captured — describe the change below, then submit
+                </span>
+                <button
+                  onClick={() => setPendingMask(null)}
+                  className="text-[11px] font-mono text-ghost hover:text-ink transition-colors"
+                >
+                  Cancel
+                </button>
+              </div>
+            )}
+            <PromptBar onGenerate={handleGenerate} loading={loading} iterativeMode />
           </div>
         )}
 

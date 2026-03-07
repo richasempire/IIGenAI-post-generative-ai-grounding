@@ -31,11 +31,21 @@ const MODELS = [
 interface Props {
   onGenerate: (prompt: string, roomType: RoomType) => void;
   loading: boolean;
+  /**
+   * When true the PromptBar is in iterative mode (an image already exists).
+   * No room type is pre-selected so the prompt is sent without a prefix —
+   * the Responses API already carries the room context from previous turns.
+   * The user can still click a pill to explicitly override the room type.
+   */
+  iterativeMode?: boolean;
 }
 
-export default function PromptBar({ onGenerate, loading }: Props) {
+export default function PromptBar({ onGenerate, loading, iterativeMode = false }: Props) {
   const [prompt,         setPrompt]         = useState("");
-  const [roomType,       setRoomType]       = useState<RoomTypeOrFreestyle>("living_room");
+  // null = no room type selected (iterative mode default — no prefix added)
+  const [roomType,       setRoomType]       = useState<RoomTypeOrFreestyle | null>(
+    iterativeMode ? null : "living_room",
+  );
   const [freestyleLabel, setFreestyleLabel] = useState("");
   const [model,          setModel]          = useState("gpt-image-1");
   const [modelOpen,      setModelOpen]      = useState(false);
@@ -64,8 +74,10 @@ export default function PromptBar({ onGenerate, loading }: Props) {
     const trimmed = prompt.trim();
     if (!trimmed || loading) return;
 
+    // null  → no pill selected (iterative mode) → free_flowing = no prefix
+    // "freestyle" → custom label appended but still free_flowing on the wire
     const finalRoomType: RoomType =
-      roomType === "freestyle" ? "free_flowing" : roomType;
+      roomType === null || roomType === "freestyle" ? "free_flowing" : roomType;
     const finalPrompt =
       roomType === "freestyle" && freestyleLabel.trim()
         ? `${trimmed}. Space type: ${freestyleLabel.trim()}`

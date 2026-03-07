@@ -7,11 +7,22 @@ Wires together all pipeline steps into a single async function:
 
 Pipeline steps
 ──────────────
-  1  generate_image          gpt-image-1   → base64 image
-  2  identify_materials      gpt-4.1-mini  → material dicts with confidence
-  3  CoT retry               gpt-4.1-mini  → re-assess yellow-flag materials
-  4  ground_materials        ICE / M2050   → GroundedMaterial objects with CO₂e
-  5  build & store           sessions.py   → Iteration + GenerateResponse
+  1  generate_image          gpt-4o / Responses API  → base64 image + response_id
+  2  identify_materials      gpt-4.1-mini            → material dicts with confidence
+  3  CoT retry               gpt-4.1-mini            → re-assess yellow-flag materials
+  4  ground_materials        ICE / M2050             → GroundedMaterial objects with CO₂e
+  5  build & store           sessions.py             → Iteration + GenerateResponse
+
+Iterative image refinement
+──────────────────────────
+Step 1 retrieves the stored OpenAI response_id for the current session before
+calling generate_image.  If a response_id exists the Responses API refines the
+previous image in-context; otherwise (new session or "New Design") a fresh image
+is generated.  The new response_id returned by the API is persisted immediately
+after a successful generation so the next iteration can use it.
+
+Clicking "IIGenAI" (New Design) assigns a new session_id on the frontend, so no
+.rid sidecar file exists and the first prompt always produces a fresh image.
 
 Error philosophy
 ────────────────
@@ -30,12 +41,18 @@ from typing import Any
 
 from openai import AsyncOpenAI
 
-from api.schemas import GenerateRequest, GenerateResponse, GroundedMaterial, Iteration
+from api.schemas import EditRequest, GenerateRequest, GenerateResponse, GroundedMaterial, Iteration
 from config import settings
-from pipeline.generator import generate_image
+from pipeline.generator import edit_image, generate_image
 from pipeline.grounder import ground_materials
 from pipeline.identifier import identify_materials_with_consistency
-from store.sessions import add_iteration, get_history, get_next_iteration_number
+from store.sessions import (
+    add_iteration,
+    get_history,
+    get_next_iteration_number,
+    get_response_id,
+    save_response_id,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -220,17 +237,33 @@ async def run_pipeline(request: GenerateRequest) -> GenerateResponse:
     identified:    list[dict[str, Any]]  = []
     grounded:      list[GroundedMaterial] = []
 
+    # Retrieve the previous OpenAI response_id for iterative refinement.
+    # Returns None for a new session (no .rid file) → fresh generation.
+    previous_response_id = get_response_id(session_id, username)
+
     logger.info(
-        "Pipeline start | session=%s | iteration=%d | room=%s",
+        "Pipeline start | session=%s | iteration=%d | room=%s | iterative=%s",
         session_id, iteration_number, request.room_type,
+        previous_response_id is not None,
     )
 
-    # ── Step 1: Generate image ────────────────────────────────────────────
+    # ── Step 1: Generate image (iterative refinement if response_id exists) ──
     try:
-        gen = await generate_image(request.prompt, request.room_type)
+        gen = await generate_image(
+            request.prompt,
+            request.room_type,
+            previous_response_id=previous_response_id,
+        )
         image_base64 = gen["image_base64"]
         full_prompt  = gen["full_prompt"]
         logger.info("Step 1 ✓ image generated (%d chars b64)", len(image_base64))
+
+        # Persist the new response_id immediately so the next iteration can use it
+        new_response_id = gen.get("response_id", "")
+        if new_response_id:
+            save_response_id(session_id, username, new_response_id)
+            logger.debug("Step 1 — response_id persisted: %s", new_response_id)
+
     except Exception as exc:
         logger.error("Step 1 ✗ image generation failed: %s", exc)
         # Cannot recover — return a minimal response with no image or materials
@@ -322,4 +355,152 @@ async def run_pipeline(request: GenerateRequest) -> GenerateResponse:
         session_id=session_id,
         current_iteration=iteration,
         history=history,          # iterations BEFORE this one, oldest first
+    )
+
+
+# ---------------------------------------------------------------------------
+# Edit pipeline entry point (mask-based region editing)
+# ---------------------------------------------------------------------------
+
+async def run_edit_pipeline(request: EditRequest) -> GenerateResponse:
+    """
+    Execute the IIGenAI pipeline for a mask-based region edit request.
+
+    Mirrors run_pipeline() but replaces Step 1 with edit_image(), which
+    calls OpenAI's images.edit API using the user-drawn mask to replace only
+    the painted region of the existing design.
+
+    Steps:
+      1. Edit image region   (gpt-image-1, images.edit + mask)
+      2. Identify materials  (gpt-4.1-mini, 5-pass self-consistency)
+      3. CoT retry           (gpt-4.1-mini, targeted reasoning)
+      4. Ground materials    (ICE DB + Material2050)
+      5. Build Iteration, persist, return GenerateResponse
+
+    Args:
+        request: Validated EditRequest from the API layer.
+
+    Returns:
+        GenerateResponse — same shape as run_pipeline(), new Iteration appended
+        to the session.  Never raises — degrades gracefully on partial failures.
+    """
+    session_id       = request.session_id
+    username         = request.username
+    history          = get_history(session_id, username)
+    iteration_number = get_next_iteration_number(session_id, username)
+
+    image_base64: str                   = ""
+    full_prompt:  str                   = request.prompt
+    identified:   list[dict[str, Any]]  = []
+    grounded:     list[GroundedMaterial] = []
+
+    logger.info(
+        "Edit pipeline start | session=%s | iteration=%d | room=%s",
+        session_id, iteration_number, request.room_type,
+    )
+
+    # ── Step 1: Edit image region using mask ──────────────────────────────
+    try:
+        gen = await edit_image(
+            request.prompt,
+            request.image_base64,
+            request.mask_base64,
+            request.room_type,
+        )
+        image_base64 = gen["image_base64"]
+        full_prompt  = gen["full_prompt"]
+        logger.info("Edit Step 1 ✓ image edited (%d chars b64)", len(image_base64))
+
+        # images.edit does not return a chained response_id, so we do NOT
+        # overwrite the session's .rid file — the next regular generate call
+        # can still continue from the last response_id if the user goes back
+        # to the PromptBar without editing.
+
+    except Exception as exc:
+        logger.error("Edit Step 1 ✗ image editing failed: %s", exc)
+        empty_iteration = Iteration(
+            iteration_number=iteration_number,
+            prompt=full_prompt,
+            image_url="",
+            materials=[],
+        )
+        add_iteration(session_id, empty_iteration, image_base64="", username=username)
+        return GenerateResponse(
+            session_id=session_id,
+            current_iteration=empty_iteration,
+            history=history,
+        )
+
+    # ── Steps 2–5: identical to run_pipeline ─────────────────────────────
+
+    # Step 2: Identify materials
+    if image_base64:
+        try:
+            identified = await identify_materials_with_consistency(image_base64)
+            logger.info("Edit Step 2 ✓ %d material(s) identified", len(identified))
+        except Exception as exc:
+            logger.error("Edit Step 2 ✗ material identification failed: %s", exc)
+
+    # Step 3: CoT retry for yellow-flag materials
+    if image_base64 and identified:
+        yellow_count = sum(
+            1 for m in identified
+            if _YELLOW_LOW <= float(m.get("confidence", 0)) < _YELLOW_HIGH
+        )
+        if yellow_count:
+            logger.info("Edit Step 3: %d yellow material(s) queued for CoT retry", yellow_count)
+            try:
+                identified = await _apply_cot_retries(image_base64, identified)
+                logger.info("Edit Step 3 ✓ CoT retries complete")
+            except Exception as exc:
+                logger.warning("Edit Step 3 ✗ CoT retries failed (non-fatal): %s", exc)
+        else:
+            logger.info("Edit Step 3 — no yellow materials, skipping CoT retries")
+
+    # Step 4: Ground materials with CO₂e data
+    if identified:
+        try:
+            grounded = await ground_materials(identified)
+            logger.info(
+                "Edit Step 4 ✓ %d grounded, %d with CO₂e",
+                len(grounded),
+                sum(1 for m in grounded if m.co2e_value is not None),
+            )
+        except Exception as exc:
+            logger.error("Edit Step 4 ✗ grounding failed (non-fatal): %s", exc)
+            grounded = [
+                GroundedMaterial(
+                    name=m.get("name", ""),
+                    description=m.get("description", ""),
+                    confidence=float(m.get("confidence", 0.0)),
+                )
+                for m in identified
+            ]
+
+    # Step 5: Build Iteration, persist, return
+    image_url = (
+        f"/api/image/{session_id}/{iteration_number}?username={username}"
+        if image_base64 else ""
+    )
+
+    iteration = Iteration(
+        iteration_number=iteration_number,
+        prompt=full_prompt,
+        image_url=image_url,
+        materials=grounded,
+    )
+
+    add_iteration(session_id, iteration, image_base64, username=username)
+
+    logger.info(
+        "Edit pipeline complete | session=%s | iteration=%d | total_co2e=%s",
+        session_id,
+        iteration_number,
+        iteration.total_co2e,
+    )
+
+    return GenerateResponse(
+        session_id=session_id,
+        current_iteration=iteration,
+        history=history,
     )
